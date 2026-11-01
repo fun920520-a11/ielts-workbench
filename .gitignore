@@ -1,0 +1,30 @@
+# ---------- 历史快照 / 归档 ----------
+archive/
+雅思备考工作台*.html
+英语播客播放器.html
+*.bak.html
+
+# ---------- Python ----------
+__pycache__/
+*.pyc
+*.pyo
+
+# ---------- 同步中间产物 ----------
+obsidian-sync/snap_*.json
+obsidian-sync/data.json
+obsidian-sync/passages.json
+obsidian-sync/audio/
+
+# ---------- podcast-bridge（独立项目，不入本仓库） ----------
+podcast-bridge/
+
+# ---------- 系统 / 编辑器 ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+.vscode/
+.idea/
+
+# ---------- WorkBuddy 会话数据 ----------
+.workbuddy/
