@@ -3,7 +3,7 @@
 一个单文件、零依赖的雅思备考工作台。所有 CSS / JS / 图标 / 数据全部内联在一个 `index.html` 里，
 双击就能用，不联网、不装任何东西。
 
-> 当前版本：词汇 15 组 · 450 词 · 15 篇 30 词短文 · 朗读 / 记笔记 / 默写 / 答错记忆法提示
+> 当前版本：词汇 22 组 · 660 词 · 每词配插画 · 15 篇 30 词短文 · 朗读 / 记笔记 / 默写 / 答错记忆法提示
 
 ---
 
@@ -47,6 +47,12 @@ https://fun920520-a11.github.io/ielts-workbench/
 
 ```
 index.html                  ← 工作台本体（唯一维护源）
+img/                        ← 单词插画（640 张 WebP）+ imgmap.json 映射表
+├── words/                  ← 只放本项目用到的图，按单词命名
+└── imgmap.json             ← 词条 id → 图片文件名
+tools/                      ← 配图生成与注入脚本
+├── make_thumbs.py          ← 为词表匹配插画、复制图片、生成映射
+└── inject_imgmap.py        ← 把映射表注入 index.html 的 imgmap-seed 区块
 obsidian-sync/              ← 把 Obsidian 词汇笔记同步进页面的工具链
 ├── obsidian_parse.py       ← 解析 Obsidian 的 Markdown（词表 + 短文）
 ├── build_passages.py       ← 合并各组短文，生成 passages.json
@@ -56,6 +62,25 @@ obsidian-sync/              ← 把 Obsidian 词汇笔记同步进页面的工�
 └── README.md               ← 同步流程说明
 archive/                    ← 历史版本快照（不进仓库）
 ```
+
+---
+
+## 单词配图
+
+单词本里每行左边有一张插画，点开可看大图（放大层里能直接朗读）。
+
+- 工具栏的 **🖼 插画** 按钮可以随时关掉，关掉后回到原来的紧凑列表
+- 「看词选义」题也会显示插画；「听音辨义」「听音拼写」不显示（否则等于送答案）
+- 少数词匹配不到图，用首字母色块占位，不掉版
+
+**新增词条后补图**：把新词加进 Obsidian → 同步 → 重跑下面两步 → 提交推送。
+
+```bash
+python tools/make_thumbs.py     # 重新匹配、复制图片
+python tools/inject_imgmap.py   # 注入映射表
+```
+
+匹配规则：单词小写后非字母数字转连字符精确命中 → 复数/时态等规则变形 → 词性后缀剥离后词根**完整等于**图名（不做前缀模糊，避免 `apparel` 配到 `apparent` 这种错图）→ 手工映射兜底。
 
 ---
 
@@ -98,3 +123,15 @@ git add -A && git commit -m "更新内容" && git push
 - 单文件、全内联、**零外部依赖**（不引 CDN / 框架 / 字体 / 图表库）
 - 图标全部内联 SVG，图表内联 SVG 手写
 - 语音朗读走浏览器 `speechSynthesis` 本地音色（离线可用，无需密钥）
+- 唯一的外部资源是 `img/words/` 里的插画（相对路径，同仓库托管，不走 CDN）
+
+---
+
+## 素材授权
+
+单词插画来自开源项目 **Word Atlas（词光）** 的开放数据集，授权 **CC BY 4.0**（署名即可商用）：
+
+- 仓库：https://github.com/designfuchen/word-atlas
+- 只使用了 `public/atlas/thumb` 下的插画（256×256 WebP），未使用其应用代码
+
+本项目其余部分（页面代码、调度与复习逻辑、Obsidian 同步工具链）为原创。
