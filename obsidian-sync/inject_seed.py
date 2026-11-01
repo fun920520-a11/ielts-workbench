@@ -2,7 +2,7 @@
 """把 data.json 重新注入页面的内置快照 <script id="obs-seed">。"""
 import io, json, re, sys
 
-PAGE = r"C:\Users\24277\WorkBuddy\2026-10-17-16-23-57\雅思备考工作台.html"
+PAGE = r"C:\Users\24277\WorkBuddy\2026-10-17-16-23-57\index.html"
 DATA = r"C:\Users\24277\WorkBuddy\2026-10-17-16-23-57\obsidian-sync\data.json"
 
 sys.stdout.reconfigure(encoding="utf-8")

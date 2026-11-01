@@ -31,7 +31,24 @@ sys.path.insert(0, HERE)
 import obsidian_parse as op  # noqa: E402
 
 DATA_FILE = os.path.join(HERE, "data.json")
-PAGE_FILE = os.path.join(os.path.dirname(HERE), "雅思备考工作台.html")
+
+
+def resolve_page():
+    """探测工作台页面文件。
+
+    部署到 GitHub Pages 时首页必须是 index.html，所以老文件名
+    「雅思备考工作台.html」已改名为 index.html。这里按优先级探测，
+    两个名字都认，避免脚本抱着旧路径报「工作台页面不存在」。
+    """
+    base = os.path.dirname(HERE)
+    for name in ("index.html", "雅思备考工作台.html"):
+        p = os.path.join(base, name)
+        if os.path.exists(p):
+            return p
+    return os.path.join(base, "index.html")
+
+
+PAGE_FILE = resolve_page()
 LOCK = threading.Lock()
 STATE = {"payload": None, "lastSync": None, "lastWrite": None, "mtime": 0.0}
 
@@ -351,8 +368,9 @@ class Handler(BaseHTTPRequestHandler):
                 return self._json(r)
             if path == "/" or path == "/index" or path == "/bench":
                 # 同源直连版：页面和接口同源，浏览器不会拦截
-                if os.path.exists(PAGE_FILE):
-                    with open(PAGE_FILE, "rb") as f:
+                page = resolve_page()
+                if os.path.exists(page):
+                    with open(page, "rb") as f:
                         body = f.read()
                     self.send_response(200)
                     self.send_header("Content-Type", "text/html; charset=utf-8")
@@ -362,7 +380,7 @@ class Handler(BaseHTTPRequestHandler):
                     self.end_headers()
                     self.wfile.write(body)
                     return
-                return self._json({"ok": False, "error": "工作台页面不存在: %s" % PAGE_FILE}, 404)
+                return self._json({"ok": False, "error": "工作台页面不存在: %s（应在项目根目录放 index.html）" % page}, 404)
 
             # ---------------- 本地 ASR（听力页用） ----------------
             if path == "/api/asr/status":

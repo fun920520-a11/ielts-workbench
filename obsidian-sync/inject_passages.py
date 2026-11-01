@@ -6,7 +6,10 @@
 import io, json, os, re, sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-PAGE = os.path.abspath(os.path.join(HERE, "..", "雅思备考工作台.html"))
+PAGE = os.path.join(HERE, "..", "index.html")
+if not os.path.exists(PAGE):
+    PAGE = os.path.join(HERE, "..", "雅思备考工作台.html")  # 兼容改名前的老路径
+PAGE = os.path.abspath(PAGE)
 data = json.load(io.open(os.path.join(HERE, "passages.json"), encoding="utf-8"))
 slug = json.dumps(data, ensure_ascii=False, separators=(",", ":"))
 block = '<script type="application/json" id="passage-seed">%s</script>' % slug

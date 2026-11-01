@@ -178,6 +178,29 @@ tr:hover td{background:#fafbff}
 .ps-zh{font-size:14.5px;line-height:1.95;color:#5b6472;margin-top:6px;padding-top:14px;border-top:1px dashed var(--line)}
 .ps-zh p{margin:0 0 9px}
 .ps-en b.pw{color:#1f3fd0;font-weight:700;cursor:pointer;padding:0 1px;border-radius:2px;background:linear-gradient(180deg,transparent 64%,#dbe4ff 64%)}
+
+/* ---------- 短文图文翻页卡（漫画分镜） ---------- */
+.ps-comic{position:relative;border:1px solid var(--line);border-radius:16px;overflow:hidden;background:#fff;margin:0 0 16px}
+.ps-comic .pc-stage{position:relative}
+.ps-comic .pc-img{width:100%;display:block;aspect-ratio:3/2;object-fit:cover}
+.ps-comic .pc-cap{position:absolute;left:0;right:0;bottom:0;padding:34px 18px 14px;background:linear-gradient(180deg,transparent,rgba(0,0,0,.62));color:#fff}
+.ps-comic .pc-cap .t{font-size:15px;font-weight:700;margin-bottom:4px;display:flex;align-items:center;gap:8px}
+.ps-comic .pc-cap .t .dot{width:8px;height:8px;border-radius:50%;background:#ffd43b;flex:0 0 auto}
+.ps-comic .pc-cap .z{font-size:12.5px;line-height:1.7;opacity:.92}
+.ps-comic .pc-nav{display:flex;align-items:center;gap:10px;padding:10px 12px;border-top:1px solid var(--line);background:var(--card,#fff)}
+.ps-comic .pc-nav .btn-o{flex:0 0 auto}
+.ps-comic .pc-nav .pc-pos{flex:1;text-align:center;font-size:13px;color:var(--sub);font-variant-numeric:tabular-nums}
+.ps-comic .pc-dots{display:flex;gap:6px;justify-content:center;margin:0}
+.ps-comic .pc-dots i{width:8px;height:8px;border-radius:50%;background:#d6dbe3;cursor:pointer;transition:.2s}
+.ps-comic .pc-dots i.on{background:var(--primary,#3b5bdb);width:20px;border-radius:4px}
+.ps-comic .pc-words{display:flex;flex-wrap:wrap;gap:6px;padding:10px 12px;border-top:1px dashed var(--line)}
+.ps-comic .pc-words .cw{font-size:12px;padding:2px 8px;border-radius:999px;background:#eef2ff;color:#1f3fd0;cursor:pointer;font-weight:600}
+.ps-comic .pc-words .cw:hover{background:#dfe7ff}
+@media(max-width:600px){
+  .ps-comic .pc-cap{padding:28px 12px 10px}
+  .ps-comic .pc-cap .t{font-size:13.5px}
+  .ps-comic .pc-cap .z{font-size:11.5px}
+}
 .ps-en b.pw:hover{background:#c3d2ff}
 /* 跟随朗读：当前句子高亮（英文实线 / 中文淡色，避免抢戏） */
 .ps-en p,.ps-zh p{transition:background .2s,box-shadow .2s,color .2s;border-radius:7px;padding-left:0}
@@ -804,6 +827,7 @@ input:focus,select:focus,textarea:focus{outline:none;border-color:var(--primary)
       <button class="btn-o btn-sm" id="psReadBtn" onclick="psMarkRead()">✅ 标记已读</button>
     </div>
     <div class="ps-tip" id="psTip">💡 点正文里任意一句 = 从这句开始读；点蓝色单词看释义（不跳读）。</div>
+    <div id="psComic"></div>
     <div id="psBody"></div>
     <div class="ps-notes" id="psNoteList" style="display:none"></div>
     <div class="ps-wordbox" id="psWordBox"></div>
@@ -1501,6 +1525,7 @@ const IMG_MAP=(function(){
   }catch(e){ return {} }
 })();
 const IMG_DIR='img/words/';
+const IMG_ROOT='img/';
 let WSHOW_IMG=(function(){ try{ return localStorage.getItem('ielts_wimg_v1')!=='0' }catch(e){ return true } })();
 function imgFile(id){ return IMG_MAP[id]||'' }
 function wordImgURL(id){
@@ -2837,7 +2862,7 @@ function psDefaultGroup(gs){
   if (tg && gs.indexOf(+tg.g) >= 0) return +tg.g;
   return gs[gs.length - 1];
 }
-function psPick(g){ PS.cur = +g; PS.word = ''; renderPassage(); }
+function psPick(g){ PS.cur = +g; PS.word = ''; PC.cur = 0; renderPassage(); }
 
 /* 词形匹配：允许 -s/-es/-ed/-d/-ing 与去 e / y→i 的变形 */
 function psMatch(tok, w){
@@ -2884,6 +2909,63 @@ function psReadTotal(){
   return Object.keys(seen).length;
 }
 
+/* ---------------- 短文图文翻页卡（漫画分镜） ---------------- */
+var PC = { data: null, cur: 0, loading: false };
+function pcLoad(fn){
+  if (PC.data) { fn && fn(PC.data); return; }
+  if (PC.loading) { /* 等 loading 完成后再回调一次 */
+    var t = setInterval(function(){ if (PC.data) { clearInterval(t); fn && fn(PC.data); } }, 80);
+    return;
+  }
+  PC.loading = true;
+  fetch(IMG_ROOT + 'passages/panels.json')
+    .then(function (r) { return r.ok ? r.json() : null; })
+    .then(function (d) { PC.data = d || {}; PC.loading = false; fn && fn(PC.data); })
+    .catch(function () { PC.data = {}; PC.loading = false; fn && fn(PC.data); });
+}
+function pcRender(){
+  var box = document.getElementById('psComic'); if (!box) return;
+  pcLoad(function (d) {
+    var set = d && d.panels && d.panels[String(PS.cur)];
+    if (!set || !set.pages || !set.pages.length) { box.innerHTML = ''; return; }
+    PC.cur = Math.min(PC.cur, set.pages.length - 1);
+    var pg = set.pages[PC.cur];
+    var dots = set.pages.map(function (_, i) {
+      return '<i class="' + (i === PC.cur ? 'on' : '') + '" onclick="pcGo(' + i + ')"></i>';
+    }).join('');
+    var words = (pg.hl || []).map(function (w) {
+      return '<span class="cw" onclick="psWord(\'' + esc(w) + '\')">' + esc(w) + '</span>';
+    }).join('');
+    box.innerHTML =
+      '<div class="ps-comic">' +
+        '<div class="pc-stage">' +
+          '<img class="pc-img" src="' + IMG_ROOT + 'passages/' + esc(pg.img) + '" alt="' + esc(pg.caption || '') + '" loading="lazy">' +
+          '<div class="pc-cap">' +
+            '<div class="t"><span class="dot"></span>' + esc(set.title || '') + ' · ' + esc(pg.caption || '') + '</div>' +
+            '<div class="z">' + esc(pg.zh || '') + '</div>' +
+          '</div>' +
+        '</div>' +
+        '<div class="pc-words">' + words + '</div>' +
+        '<div class="pc-nav">' +
+          '<button class="btn-o btn-sm" onclick="pcGo(' + (PC.cur - 1) + ')" ' + (PC.cur <= 0 ? 'disabled' : '') + '>‹ 上一页</button>' +
+          '<div class="pc-pos">' + (PC.cur + 1) + ' / ' + set.pages.length + '</div>' +
+          '<button class="btn-o btn-sm" onclick="pcGo(' + (PC.cur + 1) + ')" ' + (PC.cur >= set.pages.length - 1 ? 'disabled' : '') + '>下一页 ›</button>' +
+        '</div>' +
+        '<div class="pc-dots">' + dots + '</div>' +
+      '</div>';
+  });
+}
+function pcGo(i){
+  pcLoad(function (d) {
+    var set = d && d.panels && d.panels[String(PS.cur)];
+    if (!set || !set.pages) return;
+    var n = set.pages.length;
+    if (i < 0) i = 0; if (i >= n) i = n - 1;
+    PC.cur = i;
+    pcRender();
+  });
+}
+
 function psRenderChips(gs){
   var box = document.getElementById('psChips'); if (!box) return;
   gs = gs || psGroups();
@@ -2926,6 +3008,7 @@ function renderPassage(){
   psRenderChips(gs);
   var g = +PS.cur, p = psGet(g), words = psWordsOf(g);
   psRenderCover(g, words);
+  pcRender();
 
   var rb = document.getElementById('psReadBtn');
   if (rb) {

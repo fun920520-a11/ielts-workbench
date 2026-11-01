@@ -1,0 +1,110 @@
+{
+  "version": 1,
+  "panels": {
+    "1": {
+      "title": "The Green School",
+      "pages": [
+        {
+          "img": "g1/g1-1.webp",
+          "caption": "启动绿色项目",
+          "en": [
+            "Our school started a green project last term.",
+            "The aim was simple: make the academic curriculum more practical.",
+            "Teachers wanted to educate students about the environment, not just prepare them for a written assessment."
+          ],
+          "hl": [
+            "project",
+            "academic",
+            "curriculum",
+            "educate",
+            "environment",
+            "assessment"
+          ],
+          "zh": "我们学校上学期启动了一个绿色项目。目标很简单：让学术课程更实用。老师想让学生真正了解环境，而不只是为一次书面考核做准备。"
+        },
+        {
+          "img": "g1/g1-2.webp",
+          "caption": "科学班研究污染",
+          "en": [
+            "At first only a few pupils were motivated.",
+            "Then a science class did some research on air pollution in the local community.",
+            "Their analysis of the data gave clear evidence: the school produced too much carbon emission."
+          ],
+          "hl": [
+            "motivate",
+            "research",
+            "pollution",
+            "community",
+            "analysis",
+            "evidence",
+            "emission"
+          ],
+          "zh": "起初只有少数学生有干劲。后来一个科学班对社区里的空气污染做了研究。他们对数据的分析给出了明确证据：学校碳排放太高了。"
+        },
+        {
+          "img": "g1/g1-3.webp",
+          "caption": "请教专家",
+          "en": [
+            "The head teacher asked an expert for advice.",
+            "She said we should conserve every resource: turn off the lights, recycle paper and plastic, and buy efficient digital equipment."
+          ],
+          "hl": [
+            "conserve",
+            "resource",
+            "recycle",
+            "efficient",
+            "digital"
+          ],
+          "zh": "校长向一位专家请教。她说我们应该节约每一种资源：关灯、回收纸张和塑料、购买节能的电子设备。"
+        },
+        {
+          "img": "g1/g1-4.webp",
+          "caption": "新技术与小菜园",
+          "en": [
+            "New technology helped a lot — one innovation cut our electricity bill by a third.",
+            "Students also developed a small garden for sustainable food, and improved their computer literacy at the same time."
+          ],
+          "hl": [
+            "technology",
+            "innovation",
+            "develop",
+            "sustainable",
+            "literacy"
+          ],
+          "zh": "新技术帮了大忙——一项创新就让电费降了三分之一。学生还在校园里开辟小菜园，种可持续食物，同时提高了电脑操作能力。"
+        },
+        {
+          "img": "g1/g1-5.webp",
+          "caption": "项目的影响",
+          "en": [
+            "The project had a real impact.",
+            "It raised the standard of our science lessons and benefited the local economy, because we bought vegetables from nearby farms."
+          ],
+          "hl": [
+            "impact",
+            "standard",
+            "benefit",
+            "economy"
+          ],
+          "zh": "这个项目带来了实实在在的影响。它提高了科学课的标准，也让当地经济受益，因为蔬菜是从附近农场买的。"
+        },
+        {
+          "img": "g1/g1-6.webp",
+          "caption": "政策支持与证书",
+          "en": [
+            "But the biggest challenge was money.",
+            "The school asked the government for a policy to fund such projects for every individual school.",
+            "Two years later, students who finish the course get a qualification in environmental studies."
+          ],
+          "hl": [
+            "challenge",
+            "policy",
+            "individual",
+            "qualification"
+          ],
+          "zh": "但最大的挑战是钱。学校请政府出台政策，为每一所学校的这类项目提供资金。两年后，修完这门课的学生能拿到环境研究的资格证书。"
+        }
+      ]
+    }
+  }
+}
