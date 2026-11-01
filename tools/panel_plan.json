@@ -1,0 +1,1670 @@
+{
+  "groups": {
+    "2": {
+      "title": "Anna's Second Job: Her Health",
+      "theme": "Anna, a part-time worker, struggling to balance a second job with her own health",
+      "pages": [
+        {
+          "page": 1,
+          "sents": [
+            "Anna spent ten years building her career in a large company.",
+            "Her employer paid a good salary, and last spring she got a promotion.",
+            "She had friendly colleagues, and her profession gave her real expertise."
+          ],
+          "hl": [
+            "career",
+            "employment",
+            "employer",
+            "employee",
+            "interview"
+          ],
+          "caption": "职业·就业",
+          "zh": "安娜在一家大公司花了十年打造自己的职业。雇主给她不错的薪水，去年春天她还升了职。同事关系融洽，这个行业也给了她真正的专业能力。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, Anna, a part-time worker, struggling to balance a second job with her own health. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: career, employment, employer, employee] Caption text at the bottom in a clean rounded speech area: Anna spent ten years building her career in a large company. Her employer paid a good salary, and last spring she got a promotion. She had friendly colleagues, and her profession gave her real expertise. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g2/g2-1.webp"
+        },
+        {
+          "page": 2,
+          "sents": [
+            "But her workload grew, and she missed deadline after deadline.",
+            "She was no longer productive, and she began to doubt whether she was still competent.",
+            "At her last interview she had promised to work harder, but her body had other plans."
+          ],
+          "hl": [
+            "promotion",
+            "salary",
+            "colleague",
+            "profession",
+            "expertise"
+          ],
+          "caption": "晋升·薪水",
+          "zh": "但工作量越来越大，她一次又一次错过截止日期。她不再高产，也开始怀疑自己能不能胜任。最后一次面试时她承诺会更努力，可身体另有打算。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, Anna, a part-time worker, struggling to balance a second job with her own health. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: promotion, salary, colleague, profession] Caption text at the bottom in a clean rounded speech area: But her workload grew, and she missed deadline after deadline. She was no longer productive, and she began to doubt whether she was still competent. At her last interview she had promised to work harder, but her body had other plans. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g2/g2-2.webp"
+        },
+        {
+          "page": 3,
+          "sents": [
+            "She could not sleep, and she noticed the first symptom of burnout.",
+            "Her doctor warned her about obesity, heart disease and high blood pressure.",
+            "\"Your diet is poor and you get no exercise,\" he said."
+          ],
+          "hl": [
+            "workload",
+            "deadline",
+            "productive",
+            "competent",
+            "retire"
+          ],
+          "caption": "工作量·截止日期",
+          "zh": "她睡不着觉，还发现自己出现了过劳的第一个症状。医生警告她肥胖、心脏病和高血压的风险。「你饮食很差，又不锻炼，」他说，「良好的营养和健康的生活方式，比高薪重要得多。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, Anna, a part-time worker, struggling to balance a second job with her own health. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: workload, deadline, productive, competent] Caption text at the bottom in a clean rounded speech area: She could not sleep, and she noticed the first symptom of burnout. Her doctor warned her about obesity, heart disease and high blood pressure. Your diet is poor and you get no exercise, he said. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g2/g2-3.webp"
+        },
+        {
+          "page": 4,
+          "sents": [
+            "\"Good nutrition and a healthy lifestyle matter more than a big salary.",
+            "\"\n\nAnna took the advice seriously.",
+            "She started physical exercise three times a week and tried to keep a balance between work and rest."
+          ],
+          "hl": [
+            "nutrition",
+            "obesity",
+            "exercise",
+            "lifestyle",
+            "stress"
+          ],
+          "caption": "营养·肥胖",
+          "zh": "」\n\n安娜认真接受了建议。她开始每周锻炼三次，努力在工作与休息之间保持平衡。治疗很简单——吃得更好、睡得更多、压力更小——而且有效。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, Anna, a part-time worker, struggling to balance a second job with her own health. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: nutrition, obesity, exercise, lifestyle] Caption text at the bottom in a clean rounded speech area: Good nutrition and a healthy lifestyle matter more than a big salary. \n\nAnna took the advice seriously. She started physical exercise three times a week and tried to keep a balance between work and rest. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g2/g2-4.webp"
+        },
+        {
+          "page": 5,
+          "sents": [
+            "The treatment was simple — better food, more sleep, less stress — and it worked.",
+            "Six months later her mental health had improved too.",
+            "She even thought about leaving and looking for employment elsewhere, but in the end she stayed and changed the way she worked."
+          ],
+          "hl": [
+            "symptom",
+            "treatment",
+            "prevention",
+            "diet",
+            "mental"
+          ],
+          "caption": "症状·治疗",
+          "zh": "半年后，她的心理健康也改善了。她甚至想过离开，去别处找份工作，但最后她留下来，改变了工作方式。现在她在办公室讲预防，也讲公司应该提供怎样的医疗保健。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, Anna, a part-time worker, struggling to balance a second job with her own health. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: symptom, treatment, prevention, diet] Caption text at the bottom in a clean rounded speech area: The treatment was simple — better food, more sleep, less stress — and it worked. Six months later her mental health had improved too. She even thought about leaving and looking for employment elsewhere, but in the end she stayed and changed the way she worked. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g2/g2-5.webp"
+        },
+        {
+          "page": 6,
+          "sents": [
+            "Now she gives talks about prevention in the office and about the healthcare her company should offer.",
+            "\"I want to retire early,\" she says, \"but I want to be healthy enough to enjoy it.",
+            "\""
+          ],
+          "hl": [
+            "physical",
+            "disease",
+            "healthcare",
+            "sleep",
+            "balance"
+          ],
+          "caption": "身体的·疾病",
+          "zh": "「我想早点退休，」她说，「但我得健康到能享受它。」",
+          "prompt": "Flat cartoon storybook illustration, warm colors, Anna, a part-time worker, struggling to balance a second job with her own health. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: physical, disease, healthcare, sleep] Caption text at the bottom in a clean rounded speech area: Now she gives talks about prevention in the office and about the healthcare her company should offer. I want to retire early, she says, but I want to be healthy enough to enjoy it.  16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g2/g2-6.webp"
+        }
+      ]
+    },
+    "3": {
+      "title": "From Village to City",
+      "theme": "a young person leaving a quiet rural village to start a new life in the busy city",
+      "pages": [
+        {
+          "page": 1,
+          "sents": [
+            "My grandparents grew up in a rural village.",
+            "There was one bus a day, no hospital and no proper transport.",
+            "Today that village is part of a fast-growing urban area, and the change has been enormous.",
+            "The population has doubled in twenty years."
+          ],
+          "hl": [
+            "urban",
+            "rural",
+            "transport",
+            "traffic",
+            "congestion"
+          ],
+          "caption": "城市的·乡村的",
+          "zh": "我祖父母在一个乡村长大。那时一天只有一班公交，没有医院，也没有像样的交通。今天那个村子已经变成快速扩张的城区的一部分，变化巨大。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, a young person leaving a quiet rural village to start a new life in the busy city. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: urban, rural, transport, traffic] Caption text at the bottom in a clean rounded speech area: My grandparents grew up in a rural village. There was one bus a day, no hospital and no proper transport. Today that village is part of a fast-growing urban area, and the change has been enormous. The population has doubled in twenty years. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g3/g3-1.webp"
+        },
+        {
+          "page": 2,
+          "sents": [
+            "Young people migrate from the countryside to find work, and the city keeps expanding.",
+            "New infrastructure — roads, water pipes, a train line — was built to serve them.",
+            "A sports facility and a library opened near the old market, which is located in the centre, and local residents can now commute to work in half an hour."
+          ],
+          "hl": [
+            "commute",
+            "pedestrian",
+            "vehicle",
+            "infrastructure",
+            "facility"
+          ],
+          "caption": "通勤·行人",
+          "zh": "二十年里人口翻了一番。年轻人从乡下迁来找工作，城市不断扩张。新的基础设施——道路、水管、一条铁路——为他们而建。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, a young person leaving a quiet rural village to start a new life in the busy city. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: commute, pedestrian, vehicle, infrastructure] Caption text at the bottom in a clean rounded speech area: Young people migrate from the countryside to find work, and the city keeps expanding. New infrastructure — roads, water pipes, a train line — was built to serve them. A sports facility and a library opened near the old market, which is located in the centre, and local residents can now commute to work in half an hour. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g3/g3-2.webp"
+        },
+        {
+          "page": 3,
+          "sents": [
+            "But growth brings problems.",
+            "The number of private vehicles has risen sharply, so traffic congestion is part of daily life.",
+            "Pedestrians wait a long time at crossings, and the air is worse than before."
+          ],
+          "hl": [
+            "resident",
+            "population",
+            "migrate",
+            "locate",
+            "expand"
+          ],
+          "caption": "居民·人口",
+          "zh": "老市场附近开了体育设施和图书馆（老市场就位于市中心），当地居民现在半小时就能通勤上班。但发展也带来问题。私家车数量猛增，交通拥堵成了日常。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, a young person leaving a quiet rural village to start a new life in the busy city. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: resident, population, migrate, locate] Caption text at the bottom in a clean rounded speech area: But growth brings problems. The number of private vehicles has risen sharply, so traffic congestion is part of daily life. Pedestrians wait a long time at crossings, and the air is worse than before. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g3/g3-3.webp"
+        },
+        {
+          "page": 4,
+          "sents": [
+            "The city council is trying to protect the past while welcoming the future.",
+            "A museum was built to preserve the local heritage and tradition, and a festival celebrates the diversity of the people who live here.",
+            "The local media broadcast a programme about the old market, and the audience loved it."
+          ],
+          "hl": [
+            "culture",
+            "tradition",
+            "heritage",
+            "media",
+            "advertise"
+          ],
+          "caption": "文化·传统",
+          "zh": "行人在路口要等很久，空气也比以前差。市政委员会想在迎接未来的同时守住过去。他们建了一座博物馆来保护当地遗产和传统，还有一个节日庆祝居民的文化多样性。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, a young person leaving a quiet rural village to start a new life in the busy city. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: culture, tradition, heritage, media] Caption text at the bottom in a clean rounded speech area: The city council is trying to protect the past while welcoming the future. A museum was built to preserve the local heritage and tradition, and a festival celebrates the diversity of the people who live here. The local media broadcast a programme about the old market, and the audience loved it. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g3/g3-4.webp"
+        },
+        {
+          "page": 5,
+          "sents": [
+            "Companies advertise on the same channel, which worries some people: how much influence should they have?",
+            "Even entertainment news is paid for by them.",
+            "A journalist published a long article about cultural identity."
+          ],
+          "hl": [
+            "broadcast",
+            "influence",
+            "audience",
+            "publish",
+            "entertainment"
+          ],
+          "caption": "广播·影响",
+          "zh": "当地媒体播了一档关于老市场的节目，观众很喜欢。企业也在同一个频道做广告，这让一些人担心：它们该有多大影响力？连娱乐新闻都是它们出钱做的。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, a young person leaving a quiet rural village to start a new life in the busy city. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: broadcast, influence, audience, publish] Caption text at the bottom in a clean rounded speech area: Companies advertise on the same channel, which worries some people: how much influence should they have? Even entertainment news is paid for by them. A journalist published a long article about cultural identity. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g3/g3-5.webp"
+        },
+        {
+          "page": 6,
+          "sents": [
+            "\"A city is not only buildings,\" she wrote.",
+            "\"Its value lies in the culture that people share.",
+            "\" That idea has gone global: the article was read in many countries."
+          ],
+          "hl": [
+            "identity",
+            "diversity",
+            "global",
+            "value",
+            "preserve"
+          ],
+          "caption": "身份·多样性",
+          "zh": "一位记者发表了一篇关于文化认同的长文。「城市不只是建筑，」她写道，「它的价值在于人们共享的文化。」这个观点已经传遍全球：这篇文章在许多国家被读到。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, a young person leaving a quiet rural village to start a new life in the busy city. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: identity, diversity, global, value] Caption text at the bottom in a clean rounded speech area: A city is not only buildings, she wrote. Its value lies in the culture that people share.  That idea has gone global: the article was read in many countries. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g3/g3-6.webp"
+        }
+      ]
+    },
+    "4": {
+      "title": "A Trip on a Tight Budget",
+      "theme": "a careful budget traveler planning a cheap trip with very limited money",
+      "pages": [
+        {
+          "page": 1,
+          "sents": [
+            "Last summer my sister and I planned a journey to Italy.",
+            "We had a tight budget, so we booked everything online weeks in advance.",
+            "Our itinerary was simple: three cities in ten days.",
+            "Our first destination was a small town by the sea, which was full of tourists in August."
+          ],
+          "hl": [
+            "destination",
+            "itinerary",
+            "accommodation",
+            "reservation",
+            "tourist"
+          ],
+          "caption": "目的地·行程",
+          "zh": "去年夏天我和姐姐计划去意大利旅行。预算很紧，所以我们提前几周就在网上把一切订好了。行程很简单：十天三座城市。第一个目的地是海边的一个小镇，八月份满是游客。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, a careful budget traveler planning a cheap trip with very limited money. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: destination, itinerary, accommodation, reservation] Caption text at the bottom in a clean rounded speech area: Last summer my sister and I planned a journey to Italy. We had a tight budget, so we booked everything online weeks in advance. Our itinerary was simple: three cities in ten days. Our first destination was a small town by the sea, which was full of tourists in August. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g4/g4-1.webp"
+        },
+        {
+          "page": 2,
+          "sents": [
+            "We found cheap accommodation outside the centre and made a reservation at a small hotel.",
+            "On the day of departure a storm delayed our flight, and on arrival we discovered that one bag of luggage had not travelled with us.",
+            "We did not let it spoil the adventure."
+          ],
+          "hl": [
+            "journey",
+            "departure",
+            "arrival",
+            "luggage",
+            "souvenir"
+          ],
+          "caption": "旅程·出发",
+          "zh": "我们在市中心外面找到便宜的住宿，在一家小旅馆做了预订。出发那天一场暴风雨让航班延误，到达时又发现有一件行李没跟我们一起飞。我们没让它毁了这次冒险。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, a careful budget traveler planning a cheap trip with very limited money. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: journey, departure, arrival, luggage] Caption text at the bottom in a clean rounded speech area: We found cheap accommodation outside the centre and made a reservation at a small hotel. On the day of departure a storm delayed our flight, and on arrival we discovered that one bag of luggage had not travelled with us. We did not let it spoil the adventure. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g4/g4-2.webp"
+        },
+        {
+          "page": 3,
+          "sents": [
+            "A friendly guide showed us the old town, and we spent the morning sightseeing.",
+            "The scenery from the hill was worth the climb.",
+            "In the afternoon we went to explore the market, where I bought a small souvenir for my mother."
+          ],
+          "hl": [
+            "guide",
+            "explore",
+            "adventure",
+            "scenery",
+            "sightseeing"
+          ],
+          "caption": "导游·探索",
+          "zh": "一位友善的导游带我们逛老城，上午我们去观光。从山上看下去的风景，值得爬这一趟。下午我们去逛市场，我给妈妈买了一个小纪念品。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, a careful budget traveler planning a cheap trip with very limited money. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: guide, explore, adventure, scenery] Caption text at the bottom in a clean rounded speech area: A friendly guide showed us the old town, and we spent the morning sightseeing. The scenery from the hill was worth the climb. In the afternoon we went to explore the market, where I bought a small souvenir for my mother. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g4/g4-3.webp"
+        },
+        {
+          "page": 4,
+          "sents": [
+            "Shopping taught me a few lessons.",
+            "I checked every receipt, because you need proof if you want a refund.",
+            "I compared prices, asked for a discount, and once found a real bargain."
+          ],
+          "hl": [
+            "budget",
+            "purchase",
+            "expense",
+            "income",
+            "discount"
+          ],
+          "caption": "预算·购买",
+          "zh": "购物给我上了几课。我每张收据都留着，因为想退款就得有凭证。我比价、要求打折，还有一次真淘到了便宜货。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, a careful budget traveler planning a cheap trip with very limited money. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: budget, purchase, expense, income] Caption text at the bottom in a clean rounded speech area: Shopping taught me a few lessons. I checked every receipt, because you need proof if you want a refund. I compared prices, asked for a discount, and once found a real bargain. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g4/g4-4.webp"
+        },
+        {
+          "page": 5,
+          "sents": [
+            "But foreign currency confused me, and I paid too much for a coffee.",
+            "Back home, I added up my expense and looked at my income.",
+            "I had spent more than I could afford."
+          ],
+          "hl": [
+            "bargain",
+            "afford",
+            "consumer",
+            "refund",
+            "receipt"
+          ],
+          "caption": "便宜货·负担得起",
+          "zh": "但外币把我绕晕了，一杯咖啡付了太多钱。回家后我把开支加了一遍，又看了看收入。我花的钱超出了能负担的范围。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, a careful budget traveler planning a cheap trip with very limited money. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: bargain, afford, consumer, refund] Caption text at the bottom in a clean rounded speech area: But foreign currency confused me, and I paid too much for a coffee. Back home, I added up my expense and looked at my income. I had spent more than I could afford. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g4/g4-5.webp"
+        },
+        {
+          "page": 6,
+          "sents": [
+            "To avoid getting into debt, I used part of my saving to pay the bill.",
+            "The trip was a luxury, but the memories were valuable.",
+            "Now I check the price before I make a purchase, and I never forget that a good consumer reads the small print."
+          ],
+          "hl": [
+            "currency",
+            "debt",
+            "saving",
+            "valuable",
+            "luxury"
+          ],
+          "caption": "货币·债务",
+          "zh": "为了不背上债务，我动用了一部分储蓄来付账。这趟旅行算是奢侈，但回忆很宝贵。现在我买东西前会先看价格，也记住了：聪明的消费者会读小字条款。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, a careful budget traveler planning a cheap trip with very limited money. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: currency, debt, saving, valuable] Caption text at the bottom in a clean rounded speech area: To avoid getting into debt, I used part of my saving to pay the bill. The trip was a luxury, but the memories were valuable. Now I check the price before I make a purchase, and I never forget that a good consumer reads the small print. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g4/g4-6.webp"
+        }
+      ]
+    },
+    "5": {
+      "title": "Cooking Class on a Rainy Sunday",
+      "theme": "a cozy rainy Sunday cooking class where beginners learn to cook together",
+      "pages": [
+        {
+          "page": 1,
+          "sents": [
+            "My favourite pastime is cooking, so last Sunday I joined a class on Chinese cuisine.",
+            "We had a small snack before class, because the teacher warned us that we would eat a lot.",
+            "She gave us a recipe for roast duck with a sweet sauce."
+          ],
+          "hl": [
+            "recipe",
+            "ingredient",
+            "cuisine",
+            "flavour",
+            "spice",
+            "seasoning"
+          ],
+          "caption": "食谱·原料",
+          "zh": "我最爱的消遣是做饭，所以上周日我报了一堂中国菜课。上课前我们吃了点小零食，因为老师提醒我们会吃很多。她给了我们一份烤鸭配甜酱的食谱。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, a cozy rainy Sunday cooking class where beginners learn to cook together. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: recipe, ingredient, cuisine, flavour] Caption text at the bottom in a clean rounded speech area: My favourite pastime is cooking, so last Sunday I joined a class on Chinese cuisine. We had a small snack before class, because the teacher warned us that we would eat a lot. She gave us a recipe for roast duck with a sweet sauce. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g5/g5-1.webp"
+        },
+        {
+          "page": 2,
+          "sents": [
+            "\"The key ingredient is patience,\" she said, \"and the spice and seasoning must be in balance.",
+            "\" We learned to boil the soup first, then fry the vegetables quickly to keep the flavour fresh.",
+            "Each of us got a large portion to taste, and by then my appetite had returned."
+          ],
+          "hl": [
+            "roast",
+            "boil",
+            "fry",
+            "dish",
+            "menu",
+            "appetite"
+          ],
+          "caption": "烤·煮沸",
+          "zh": "「关键原料是耐心，」她说，「香料和调味品必须平衡。」我们学会了先煮汤，再快速煎炒蔬菜以保留风味。每人都分到一大份试吃，那时我的食欲已经回来了。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, a cozy rainy Sunday cooking class where beginners learn to cook together. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: roast, boil, fry, dish] Caption text at the bottom in a clean rounded speech area: The key ingredient is patience, she said, and the spice and seasoning must be in balance.  We learned to boil the soup first, then fry the vegetables quickly to keep the flavour fresh. Each of us got a large portion to taste, and by then my appetite had returned. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g5/g5-2.webp"
+        },
+        {
+          "page": 3,
+          "sents": [
+            "After lunch we talked about leisure.",
+            "One student goes hiking every weekend; another prefers camping with her children.",
+            "A third has a gym membership but admits she goes mostly for the fitness, not the recreation."
+          ],
+          "hl": [
+            "digest",
+            "snack",
+            "portion",
+            "hobby",
+            "leisure",
+            "recreation"
+          ],
+          "caption": "消化·小吃",
+          "zh": "午饭后我们聊起了休闲。一个学生每个周末都去徒步；另一个更喜欢带孩子去露营。第三位有健身房会员卡，但承认自己去主要是为了身体素质，不是为了消遣。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, a cozy rainy Sunday cooking class where beginners learn to cook together. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: digest, snack, portion, hobby] Caption text at the bottom in a clean rounded speech area: After lunch we talked about leisure. One student goes hiking every weekend; another prefers camping with her children. A third has a gym membership but admits she goes mostly for the fitness, not the recreation. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g5/g5-3.webp"
+        },
+        {
+          "page": 4,
+          "sents": [
+            "Someone asked about the tennis tournament on Saturday, and we argued about whether competition makes sport better or worse.",
+            "A volunteer from the centre told us about the sports equipment we could borrow.",
+            "Our teacher, whose hobby is amateur photography, said that a good dish is like a good photograph: it needs light, colour and rhythm."
+          ],
+          "hl": [
+            "tournament",
+            "competition",
+            "fitness",
+            "gym",
+            "hiking",
+            "camping"
+          ],
+          "caption": "锦标赛·竞争",
+          "zh": "有人问起周六的网球锦标赛，我们争论竞争到底让运动更好还是更糟。中心的一位志愿者还介绍了可以借用的运动器材。我们的老师业余爱好是摄影，她说一道好菜就像一张好照片：需要光、色彩和节奏。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, a cozy rainy Sunday cooking class where beginners learn to cook together. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: tournament, competition, fitness, gym] Caption text at the bottom in a clean rounded speech area: Someone asked about the tennis tournament on Saturday, and we argued about whether competition makes sport better or worse. A volunteer from the centre told us about the sports equipment we could borrow. Our teacher, whose hobby is amateur photography, said that a good dish is like a good photograph: it needs light, colour and rhythm. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g5/g5-4.webp"
+        },
+        {
+          "page": 5,
+          "sents": [
+            "\"You don't need much to relax,\" she said.",
+            "\"But you do need to digest your food before you run.",
+            "\"\n\nI went home with a full stomach and a new menu to try."
+          ],
+          "hl": [
+            "photography",
+            "membership",
+            "volunteer",
+            "pastime",
+            "relax",
+            "equipment"
+          ],
+          "caption": "摄影·会员资格",
+          "zh": "「放松不需要太多东西，」她说，「但跑步前你得先把饭吃消化了。」\n\n我带着满满的胃和一张想试的新菜单回了家。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, a cozy rainy Sunday cooking class where beginners learn to cook together. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: photography, membership, volunteer, pastime] Caption text at the bottom in a clean rounded speech area: You don't need much to relax, she said. But you do need to digest your food before you run. \n\nI went home with a full stomach and a new menu to try. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g5/g5-5.webp"
+        }
+      ]
+    },
+    "6": {
+      "title": "The New Flat",
+      "theme": "a person moving into a newly rented flat and setting up their first home",
+      "pages": [
+        {
+          "page": 1,
+          "sents": [
+            "Last month my friend Leo moved into an apartment in a quiet suburb.",
+            "The neighbourhood is friendly, and the balcony looks out over a small park.",
+            "The landlord wanted three months' rent in advance.",
+            "Leo had to sign a contract as a tenant and show that he could still pay the mortgage on his old property."
+          ],
+          "hl": [
+            "apartment",
+            "suburb",
+            "neighbourhood",
+            "landlord",
+            "tenant"
+          ],
+          "caption": "公寓（美式）·郊区",
+          "zh": "上个月我朋友里奥搬进了郊区一套公寓。街区很友善，阳台正对一个小公园。房东要预付三个月房租。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, a person moving into a newly rented flat and setting up their first home. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: apartment, suburb, neighbourhood, landlord] Caption text at the bottom in a clean rounded speech area: Last month my friend Leo moved into an apartment in a quiet suburb. The neighbourhood is friendly, and the balcony looks out over a small park. The landlord wanted three months' rent in advance. Leo had to sign a contract as a tenant and show that he could still pay the mortgage on his old property. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g6/g6-1.webp"
+        },
+        {
+          "page": 2,
+          "sents": [
+            "The flat came furnished, with a spacious living room, a cosy bedroom and enough furniture for two people.",
+            "He spent a weekend decorating it, and the utility bills turned out to be lower than he expected.",
+            "I asked how he felt."
+          ],
+          "hl": [
+            "rent",
+            "mortgage",
+            "property",
+            "furnished",
+            "spacious"
+          ],
+          "caption": "租金·按揭贷款",
+          "zh": "里奥得作为房客签合同，还要证明自己仍能付得起老房子的按揭。公寓带家具，客厅宽敞，卧室温馨，家具够两个人用。他花了一个周末装修，水电费也比他预想的低。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, a person moving into a newly rented flat and setting up their first home. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: rent, mortgage, property, furnished] Caption text at the bottom in a clean rounded speech area: The flat came furnished, with a spacious living room, a cosy bedroom and enough furniture for two people. He spent a weekend decorating it, and the utility bills turned out to be lower than he expected. I asked how he felt. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g6/g6-2.webp"
+        },
+        {
+          "page": 3,
+          "sents": [
+            "\"Honestly, I was anxious at first,\" he said.",
+            "\"Moving is stressful.",
+            "\" But now he is confident about the future and in a good mood most days."
+          ],
+          "hl": [
+            "cosy",
+            "balcony",
+            "furniture",
+            "decorate",
+            "utility"
+          ],
+          "caption": "舒适温馨的·阳台",
+          "zh": "我问他感觉如何。「说实话，一开始我很焦虑，」他说，「搬家压力大。」但现在他对未来有信心，大多数日子心情都不错。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, a person moving into a newly rented flat and setting up their first home. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: cosy, balcony, furniture, decorate] Caption text at the bottom in a clean rounded speech area: Honestly, I was anxious at first, he said. Moving is stressful.  But now he is confident about the future and in a good mood most days. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g6/g6-3.webp"
+        },
+        {
+          "page": 4,
+          "sents": [
+            "He is generous with his time, patient with his noisy neighbours, and always honest about his feelings.",
+            "What I like most is his curiosity.",
+            "He is curious about everything: the history of the building, the name of every plant in the park."
+          ],
+          "hl": [
+            "mood",
+            "emotion",
+            "anxious",
+            "confident",
+            "shy"
+          ],
+          "caption": "心情·情绪",
+          "zh": "他舍得花时间，对吵闹的邻居有耐心，对自己的感受也一向诚实。我最喜欢的是他的好奇心。他对什么都好奇：这栋楼的历史、公园里每一株植物的名字。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, a person moving into a newly rented flat and setting up their first home. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: mood, emotion, anxious, confident] Caption text at the bottom in a clean rounded speech area: He is generous with his time, patient with his noisy neighbours, and always honest about his feelings. What I like most is his curiosity. He is curious about everything: the history of the building, the name of every plant in the park. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g6/g6-4.webp"
+        },
+        {
+          "page": 5,
+          "sents": [
+            "He is optimistic by nature, though not naive.",
+            "He is never pessimistic, but he is sensitive to criticism and gets frustrated when a plan fails.",
+            "Even so, he is grateful for small things and enthusiastic about every new idea."
+          ],
+          "hl": [
+            "generous",
+            "patient",
+            "honest",
+            "curious",
+            "optimistic"
+          ],
+          "caption": "慷慨的·有耐心的",
+          "zh": "他天性乐观，但一点也不天真。他从不悲观，可对批评敏感，计划失败时会沮丧。即便如此，他对小事心怀感激，对每个新想法都充满热情。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, a person moving into a newly rented flat and setting up their first home. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: generous, patient, honest, curious] Caption text at the bottom in a clean rounded speech area: He is optimistic by nature, though not naive. He is never pessimistic, but he is sensitive to criticism and gets frustrated when a plan fails. Even so, he is grateful for small things and enthusiastic about every new idea. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g6/g6-5.webp"
+        },
+        {
+          "page": 6,
+          "sents": [
+            "\"Emotion is not weakness,\" he told me.",
+            "\"Being shy and being strong can live in the same person.",
+            "\""
+          ],
+          "hl": [
+            "pessimistic",
+            "grateful",
+            "frustrated",
+            "enthusiastic",
+            "sensitive"
+          ],
+          "caption": "悲观的·感激的",
+          "zh": "「情绪不是软弱，」他告诉我，「害羞和坚强可以住在同一个人身上。」",
+          "prompt": "Flat cartoon storybook illustration, warm colors, a person moving into a newly rented flat and setting up their first home. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: pessimistic, grateful, frustrated, enthusiastic] Caption text at the bottom in a clean rounded speech area: Emotion is not weakness, he told me. Being shy and being strong can live in the same person.  16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g6/g6-6.webp"
+        }
+      ]
+    },
+    "7": {
+      "title": "An Art Festival in the Rain",
+      "theme": "an outdoor art festival happening in the rain, with stalls and performances",
+      "pages": [
+        {
+          "page": 1,
+          "sents": [
+            "The forecast said showers, but we went anyway.",
+            "The festival takes place every year in a forest by the ocean, and the landscape there is unforgettable.",
+            "The morning was humid, with a light breeze from the sea."
+          ],
+          "hl": [
+            "nature",
+            "climate",
+            "weather",
+            "temperature",
+            "forecast",
+            "shower"
+          ],
+          "caption": "自然·气候",
+          "zh": "天气预报说有阵雨，我们还是去了。这个节每年都在海边的森林里举办，那里的风景让人难忘。早上很潮湿，海上吹来微风。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, an outdoor art festival happening in the rain, with stalls and performances. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: nature, climate, weather, temperature] Caption text at the bottom in a clean rounded speech area: The forecast said showers, but we went anyway. The festival takes place every year in a forest by the ocean, and the landscape there is unforgettable. The morning was humid, with a light breeze from the sea. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g7/g7-1.webp"
+        },
+        {
+          "page": 2,
+          "sents": [
+            "By noon the temperature had dropped and a heavy shower soaked everyone.",
+            "Nobody minded: the rain is part of the experience, like the flood of colour on the stage.",
+            "An artist had built a sculpture from driftwood, and a gallery tent showed an exhibition of wildlife photography."
+          ],
+          "hl": [
+            "breeze",
+            "humid",
+            "drought",
+            "flood",
+            "wildlife",
+            "species"
+          ],
+          "caption": "微风·潮湿的",
+          "zh": "到中午气温降了下来，一场大雨把所有人淋透。没人在意：雨就是体验的一部分，像舞台上涌动的色彩。一位艺术家用浮木做了一件雕塑，一个画廊帐篷里办着野生动物摄影展。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, an outdoor art festival happening in the rain, with stalls and performances. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: breeze, humid, drought, flood] Caption text at the bottom in a clean rounded speech area: By noon the temperature had dropped and a heavy shower soaked everyone. Nobody minded: the rain is part of the experience, like the flood of colour on the stage. An artist had built a sculpture from driftwood, and a gallery tent showed an exhibition of wildlife photography. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g7/g7-2.webp"
+        },
+        {
+          "page": 3,
+          "sents": [
+            "A guide explained that several species in the area are protected, and that a long drought last summer had damaged the forest.",
+            "In the evening an orchestra played under a tent.",
+            "The only instrument was a piano, but the melody was slow and the rhythm was almost like rain, and the performance made the audience silent."
+          ],
+          "hl": [
+            "forest",
+            "ocean",
+            "landscape",
+            "art",
+            "artist",
+            "gallery"
+          ],
+          "caption": "森林·海洋",
+          "zh": "导游讲解说，这一带有几个物种受保护，而去年夏天的一场长期干旱损伤了森林。傍晚，一支管弦乐队在帐篷下演奏。唯一的乐器是钢琴，但旋律很慢，节奏几乎像雨，演出让观众安静下来。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, an outdoor art festival happening in the rain, with stalls and performances. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: forest, ocean, landscape, art] Caption text at the bottom in a clean rounded speech area: A guide explained that several species in the area are protected, and that a long drought last summer had damaged the forest. In the evening an orchestra played under a tent. The only instrument was a piano, but the melody was slow and the rhythm was almost like rain, and the performance made the audience silent. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g7/g7-3.webp"
+        },
+        {
+          "page": 4,
+          "sents": [
+            "A young singer with real talent sang poetry set to music, and a writer read from a book of literature about the sea.",
+            "\"Nature is the first artist,\" she said.",
+            "\"We only copy her."
+          ],
+          "hl": [
+            "exhibition",
+            "sculpture",
+            "instrument",
+            "orchestra",
+            "melody",
+            "rhythm"
+          ],
+          "caption": "展览·雕塑",
+          "zh": "一位真正有天赋的年轻歌手唱了谱成曲的诗歌，一位作家朗读了一本关于海洋的文学书。「大自然才是第一位艺术家，」她说，「我们只是模仿她。」\n\n我懂她的意思。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, an outdoor art festival happening in the rain, with stalls and performances. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: exhibition, sculpture, instrument, orchestra] Caption text at the bottom in a clean rounded speech area: A young singer with real talent sang poetry set to music, and a writer read from a book of literature about the sea. Nature is the first artist, she said. We only copy her. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g7/g7-4.webp"
+        },
+        {
+          "page": 5,
+          "sents": [
+            "\"\n\nI understood what she meant.",
+            "The creative work we saw that day was inspired by weather, water and light.",
+            "Art does not need a perfect climate; it needs attention."
+          ],
+          "hl": [
+            "performance",
+            "creative",
+            "talent",
+            "inspire",
+            "literature",
+            "poetry"
+          ],
+          "caption": "表演·有创造力的",
+          "zh": "那天我们看到的创作，灵感都来自天气、水和光。艺术不需要完美的气候，它需要的是专注。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, an outdoor art festival happening in the rain, with stalls and performances. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: performance, creative, talent, inspire] Caption text at the bottom in a clean rounded speech area: \n\nI understood what she meant. The creative work we saw that day was inspired by weather, water and light. Art does not need a perfect climate; it needs attention. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g7/g7-5.webp"
+        }
+      ]
+    },
+    "8": {
+      "title": "Grandma Goes Online",
+      "theme": "an elderly grandmother learning to use the internet and modern technology",
+      "pages": [
+        {
+          "page": 1,
+          "sents": [
+            "My grandmother is eighty-two, and last year she decided to learn to use a tablet.",
+            "Her childhood was spent in a village with no telephone, and her upbringing was strict.",
+            "She had never trusted a screen.",
+            "But she missed her relatives who had moved abroad, and she wanted to see their faces."
+          ],
+          "hl": [
+            "relative",
+            "generation",
+            "childhood",
+            "upbringing",
+            "relationship"
+          ],
+          "caption": "亲戚·一代人",
+          "zh": "我奶奶八十二岁，去年她决定学着用平板。她的童年在一个没有电话的村子里度过，家教很严。她从不相信屏幕。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, an elderly grandmother learning to use the internet and modern technology. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: relative, generation, childhood, upbringing] Caption text at the bottom in a clean rounded speech area: My grandmother is eighty-two, and last year she decided to learn to use a tablet. Her childhood was spent in a village with no telephone, and her upbringing was strict. She had never trusted a screen. But she missed her relatives who had moved abroad, and she wanted to see their faces. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g8/g8-1.webp"
+        },
+        {
+          "page": 2,
+          "sents": [
+            "My cousin set up the device for her.",
+            "The hardware was cheap but reliable, and the software was simple.",
+            "He made the text large, put her favourite photos on the home screen and showed her how to download an app.",
+            "Then he helped her upload a short video of her garden."
+          ],
+          "hl": [
+            "friendship",
+            "trust",
+            "support",
+            "argue",
+            "forgive"
+          ],
+          "caption": "友谊·信任",
+          "zh": "但她想念搬到国外的亲戚，想看看他们的脸。我表弟帮她装好了设备。硬件便宜但可靠，软件也很简单。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, an elderly grandmother learning to use the internet and modern technology. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: friendship, trust, support, argue] Caption text at the bottom in a clean rounded speech area: My cousin set up the device for her. The hardware was cheap but reliable, and the software was simple. He made the text large, put her favourite photos on the home screen and showed her how to download an app. Then he helped her upload a short video of her garden. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g8/g8-2.webp"
+        },
+        {
+          "page": 3,
+          "sents": [
+            "Within a week she had joined an online group of neighbours and old friends.",
+            "Now she uses the platform every morning.",
+            "She argues with her brother about politics, forgives him by lunchtime, and respects his opinions more than she admits."
+          ],
+          "hl": [
+            "respect",
+            "divorce",
+            "companion",
+            "neighbour",
+            "adult"
+          ],
+          "caption": "尊重·离婚",
+          "zh": "他把字号调大，把家人照片放在首页，教她怎么下载应用。然后他帮她上传了一段自家花园的短视频。一周之内，她就加入了一个由邻居和老朋友组成的在线群组。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, an elderly grandmother learning to use the internet and modern technology. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: respect, divorce, companion, neighbour] Caption text at the bottom in a clean rounded speech area: Within a week she had joined an online group of neighbours and old friends. Now she uses the platform every morning. She argues with her brother about politics, forgives him by lunchtime, and respects his opinions more than she admits. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g8/g8-3.webp"
+        },
+        {
+          "page": 4,
+          "sents": [
+            "Her generation grew up writing letters; for her, a network of friends used to mean people you could visit.",
+            "Now it means a list of names on a small screen.",
+            "\"Friendship needs contact,\" she says."
+          ],
+          "hl": [
+            "device",
+            "screen",
+            "online",
+            "network",
+            "platform"
+          ],
+          "caption": "设备·屏幕",
+          "zh": "现在她每天早上都用这个平台。她跟哥哥争论政治，午饭前就原谅了他，而且比他以为的更尊重他的观点。她那一代人是在写信中长大的；对她来说，朋友圈以前意味着可以上门拜访的人，现在意味着小屏幕上的一串名字。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, an elderly grandmother learning to use the internet and modern technology. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: device, screen, online, network] Caption text at the bottom in a clean rounded speech area: Her generation grew up writing letters; for her, a network of friends used to mean people you could visit. Now it means a list of names on a small screen. Friendship needs contact, she says. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g8/g8-4.webp"
+        },
+        {
+          "page": 5,
+          "sents": [
+            "\"It doesn't matter whether it's a letter or a message.",
+            "\"\n\nShe is careful about privacy and keeps her data secure, and she has learned that easy access is also a risk.",
+            "She avoids the virtual world after nine o'clock, because she knows about addiction."
+          ],
+          "hl": [
+            "software",
+            "hardware",
+            "download",
+            "upload",
+            "privacy"
+          ],
+          "caption": "软件·硬件",
+          "zh": "「友谊需要联系，」她说，「是信还是消息，不重要。」\n\n她很注意隐私，把数据保护得很安全，也明白了「随手就能访问」本身就是风险。九点以后她不碰虚拟世界，因为她知道上瘾这回事。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, an elderly grandmother learning to use the internet and modern technology. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: software, hardware, download, upload] Caption text at the bottom in a clean rounded speech area: It doesn't matter whether it's a letter or a message. \n\nShe is careful about privacy and keeps her data secure, and she has learned that easy access is also a risk. She avoids the virtual world after nine o'clock, because she knows about addiction. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g8/g8-5.webp"
+        },
+        {
+          "page": 6,
+          "sents": [
+            "And she insists that a companion online is never a substitute for an adult who visits in person.",
+            "Her relationship with my cousin changed too: he is no longer just the boy who fixes her tablet, but her teacher and her friend, and he gives her real support when a new app confuses her.",
+            "She has lived alone since her divorce in 1975, and she says the tablet has made her days less quiet."
+          ],
+          "hl": [
+            "secure",
+            "virtual",
+            "access",
+            "contact",
+            "addiction"
+          ],
+          "caption": "安全的·虚拟的",
+          "zh": "她坚持认为，网上的伙伴永远代替不了一个真的上门来看她的成年人。她和表弟的关系也变了：他不再只是帮她修平板的男孩，而是她的老师，也是她的朋友——新应用把她弄糊涂时，他给她实实在在的支持。1975 年离婚后她一直独居，她说这块平板让她的日子没那么安静。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, an elderly grandmother learning to use the internet and modern technology. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: secure, virtual, access, contact] Caption text at the bottom in a clean rounded speech area: And she insists that a companion online is never a substitute for an adult who visits in person. Her relationship with my cousin changed too: he is no longer just the boy who fixes her tablet, but her teacher and her friend, and he gives her real support when a new app confuses her. She has lived alone since her divorce in 1975, and she says the tablet has made her days less quiet. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g8/g8-6.webp"
+        }
+      ]
+    },
+    "9": {
+      "title": "The Lantern Festival",
+      "theme": "a family happily celebrating the traditional Lantern Festival at night",
+      "pages": [
+        {
+          "page": 1,
+          "sents": [
+            "Every autumn my city holds a festival that lasts four days.",
+            "The council and the municipal government pay for part of it, and local businesses fund the rest.",
+            "The opening ceremony begins with a parade through the old streets."
+          ],
+          "hl": [
+            "festival",
+            "celebrate",
+            "ceremony",
+            "custom",
+            "costume"
+          ],
+          "caption": "节日·庆祝",
+          "zh": "每年秋天，我所在的城市都会办一个为期四天的节日。市政会和市政府出一部分钱，本地企业出资剩下的部分。开幕式是穿过老街的游行。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, a family happily celebrating the traditional Lantern Festival at night. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: festival, celebrate, ceremony, custom] Caption text at the bottom in a clean rounded speech area: Every autumn my city holds a festival that lasts four days. The council and the municipal government pay for part of it, and local businesses fund the rest. The opening ceremony begins with a parade through the old streets. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g9/g9-1.webp"
+        },
+        {
+          "page": 2,
+          "sents": [
+            "People wear traditional costume, and children carry lanterns.",
+            "In the evening there are fireworks over the river, followed by a feast in the main square.",
+            "For one night the whole centre feels like a carnival, and every gathering of neighbours turns into a party."
+          ],
+          "hl": [
+            "parade",
+            "firework",
+            "feast",
+            "anniversary",
+            "memorial"
+          ],
+          "caption": "游行·烟花（常用复数 fireworks）",
+          "zh": "人们穿着传统服装，孩子提着灯笼。晚上河上有烟花，之后是在主广场的盛宴。有那么一夜，整个市中心像个狂欢节，每一场邻居的聚会都变成派对。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, a family happily celebrating the traditional Lantern Festival at night. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: parade, firework, feast, anniversary] Caption text at the bottom in a clean rounded speech area: People wear traditional costume, and children carry lanterns. In the evening there are fireworks over the river, followed by a feast in the main square. For one night the whole centre feels like a carnival, and every gathering of neighbours turns into a party. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g9/g9-2.webp"
+        },
+        {
+          "page": 3,
+          "sents": [
+            "We celebrate the founding of the town with this festival: a short play each year commemorates the first families who arrived here.",
+            "So it is also an anniversary for every family that has lived here for generations.",
+            "There is a small memorial in the park, and an official from the authority lays a flower there each year."
+          ],
+          "hl": [
+            "ritual",
+            "carnival",
+            "gathering",
+            "festive",
+            "commemorate"
+          ],
+          "caption": "仪式·狂欢节",
+          "zh": "我们用这个节日来庆祝建城：每年一出短剧纪念最早来到这里的那几户人家。所以对每一户世代住在这里的人家来说，它也是周年纪念日。公园里有一座小纪念碑，每年当局的一位官员会在那里献花。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, a family happily celebrating the traditional Lantern Festival at night. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: ritual, carnival, gathering, festive] Caption text at the bottom in a clean rounded speech area: We celebrate the founding of the town with this festival: a short play each year commemorates the first families who arrived here. So it is also an anniversary for every family that has lived here for generations. There is a small memorial in the park, and an official from the authority lays a flower there each year. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g9/g9-3.webp"
+        },
+        {
+          "page": 4,
+          "sents": [
+            "The ritual never changes, and that is exactly what people love about it.",
+            "Behind the fun there is real work.",
+            "The council has to allocate a budget: part goes to public service such as cleaning and safety, part to a subsidy for local restaurants."
+          ],
+          "hl": [
+            "government",
+            "council",
+            "municipal",
+            "tax",
+            "subsidy"
+          ],
+          "caption": "政府·委员会",
+          "zh": "仪式从不改变——而这正是人们喜欢它的原因。热闹背后是实打实的工作。市政会得分配预算：一部分用于清洁、安保这类公共服务，一部分补贴本地餐馆。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, a family happily celebrating the traditional Lantern Festival at night. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: government, council, municipal, tax] Caption text at the bottom in a clean rounded speech area: The ritual never changes, and that is exactly what people love about it. Behind the fun there is real work. The council has to allocate a budget: part goes to public service such as cleaning and safety, part to a subsidy for local restaurants. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g9/g9-4.webp"
+        },
+        {
+          "page": 5,
+          "sents": [
+            "A tax on hotel rooms helps pay for the decorations.",
+            "The welfare of older residents is not forgotten — the pension fund for retired workers gets a small share.",
+            "Regulations control noise, traffic and the sale of alcohol."
+          ],
+          "hl": [
+            "welfare",
+            "pension",
+            "authority",
+            "official",
+            "regulation"
+          ],
+          "caption": "福利·养老金",
+          "zh": "旅馆的房间税帮着支付装饰费用。老年居民的福利也没被忘记——退休职工的养老基金能分到一小份。规章管理噪音、交通和酒类销售。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, a family happily celebrating the traditional Lantern Festival at night. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: welfare, pension, authority, official] Caption text at the bottom in a clean rounded speech area: A tax on hotel rooms helps pay for the decorations. The welfare of older residents is not forgotten — the pension fund for retired workers gets a small share. Regulations control noise, traffic and the sale of alcohol. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g9/g9-5.webp"
+        },
+        {
+          "page": 6,
+          "sents": [
+            "Some people complain about the cost, but most agree that the sector which benefits most is tourism.",
+            "A festive street, they say, is a public good, and every custom is worth keeping."
+          ],
+          "hl": [
+            "allocate",
+            "fund",
+            "sector",
+            "public",
+            "service"
+          ],
+          "caption": "分配·基金",
+          "zh": "有人抱怨花钱多，但多数人同意受益最大的行业是旅游业。他们说，一条有节日气氛的街道就是公共财富，每一种习俗都值得保留。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, a family happily celebrating the traditional Lantern Festival at night. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: allocate, fund, sector, public] Caption text at the bottom in a clean rounded speech area: Some people complain about the cost, but most agree that the sector which benefits most is tourism. A festive street, they say, is a public good, and every custom is worth keeping. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g9/g9-6.webp"
+        }
+      ]
+    },
+    "10": {
+      "title": "A Witness Who Speaks Two Languages",
+      "theme": "a bilingual witness helping the police with a case using two languages",
+      "pages": [
+        {
+          "page": 1,
+          "sents": [
+            "When a theft took place in a small shop, the only witness was a student from abroad.",
+            "The police made an arrest the same day, and the case went to court.",
+            "The young man was asked to give evidence, but his English was not fluent enough, so a lawyer arranged a bilingual interpreter for the trial."
+          ],
+          "hl": [
+            "crime",
+            "criminal",
+            "punishment",
+            "prison",
+            "prisoner"
+          ],
+          "caption": "犯罪·罪犯",
+          "zh": "一家小店发生盗窃案时，唯一的目击者是个外国留学生。警方当天就逮捕了人，案子上了法庭。年轻人被要求作证，但英语不够流利，于是律师为审判安排了一位双语翻译。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, a bilingual witness helping the police with a case using two languages. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: crime, criminal, punishment, prison] Caption text at the bottom in a clean rounded speech area: When a theft took place in a small shop, the only witness was a student from abroad. The police made an arrest the same day, and the case went to court. The young man was asked to give evidence, but his English was not fluent enough, so a lawyer arranged a bilingual interpreter for the trial. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g10/g10-1.webp"
+        },
+        {
+          "page": 2,
+          "sents": [
+            "The interpreter had learned language the hard way.",
+            "At school she memorized long vocabulary lists, revised grammar every evening and worked on her pronunciation with a dictionary and a mirror.",
+            "She read poetry to improve her comprehension and wrote a short translation of every news story she heard."
+          ],
+          "hl": [
+            "arrest",
+            "theft",
+            "guilty",
+            "innocent",
+            "trial"
+          ],
+          "caption": "逮捕·盗窃",
+          "zh": "这位翻译是用笨办法学的语言。上学时她背长长的词汇表，每天晚上复习语法，还对着词典和镜子练发音。她读诗来提高理解力，听过的每条新闻都写一段简短译文。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, a bilingual witness helping the police with a case using two languages. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: arrest, theft, guilty, innocent] Caption text at the bottom in a clean rounded speech area: The interpreter had learned language the hard way. At school she memorized long vocabulary lists, revised grammar every evening and worked on her pronunciation with a dictionary and a mirror. She read poetry to improve her comprehension and wrote a short translation of every news story she heard. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g10/g10-2.webp"
+        },
+        {
+          "page": 3,
+          "sents": [
+            "\"Revision is boring,\" she says, \"but fluency is built on it.",
+            "\"\n\nIn court she was careful.",
+            "One word can change a sentence."
+          ],
+          "hl": [
+            "court",
+            "lawyer",
+            "witness",
+            "victim",
+            "sentence"
+          ],
+          "caption": "法庭·律师",
+          "zh": "「复习很枯燥，」她说，「但流利度就是这么练出来的。」\n\n在法庭上她很谨慎。一个词就能改变一句话的意思。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, a bilingual witness helping the police with a case using two languages. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: court, lawyer, witness, victim] Caption text at the bottom in a clean rounded speech area: Revision is boring, she says, but fluency is built on it. \n\nIn court she was careful. One word can change a sentence. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g10/g10-3.webp"
+        },
+        {
+          "page": 4,
+          "sents": [
+            "The accused man said he was innocent; the shop owner said he was guilty.",
+            "The interpreter translated both, and the judge listened to the accent in the recording as well.",
+            "The prisoner had already spent eight months in prison before the trial began, so the verdict mattered to him more than to anyone else."
+          ],
+          "hl": [
+            "language",
+            "grammar",
+            "vocabulary",
+            "pronunciation",
+            "fluent"
+          ],
+          "caption": "语言·语法",
+          "zh": "被告说自己无罪，店主说他有罪。她把两边的话都译了，法官还听了录音里的口音。审判开始前，这名囚犯已经在监狱里待了八个月，所以判决对他来说比任何人都重要。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, a bilingual witness helping the police with a case using two languages. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: language, grammar, vocabulary, pronunciation] Caption text at the bottom in a clean rounded speech area: The accused man said he was innocent; the shop owner said he was guilty. The interpreter translated both, and the judge listened to the accent in the recording as well. The prisoner had already spent eight months in prison before the trial began, so the verdict mattered to him more than to anyone else. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g10/g10-4.webp"
+        },
+        {
+          "page": 5,
+          "sents": [
+            "He was found not guilty, and the victim was told the reason.",
+            "Later the judge praised the interpreter's professionalism.",
+            "\"A trial is about language as much as about crime,\" he said."
+          ],
+          "hl": [
+            "fluency",
+            "translate",
+            "translation",
+            "dictionary",
+            "memorize"
+          ],
+          "caption": "流利度·翻译",
+          "zh": "他最终被判无罪，受害者被告知了理由。后来法官称赞了翻译的专业水准。「审判既关乎语言，也关乎罪行，」他说，「只有人们听懂了，惩罚才有意义。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, a bilingual witness helping the police with a case using two languages. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: fluency, translate, translation, dictionary] Caption text at the bottom in a clean rounded speech area: He was found not guilty, and the victim was told the reason. Later the judge praised the interpreter's professionalism. A trial is about language as much as about crime, he said. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g10/g10-5.webp"
+        },
+        {
+          "page": 6,
+          "sents": [
+            "\"Punishment only works if people understand what is said.",
+            "\"\n\nThe student still studies.",
+            "He wants a career in law, and he knows that the criminal justice system needs people who can speak for those who cannot speak for themselves."
+          ],
+          "hl": [
+            "revise",
+            "revision",
+            "accent",
+            "bilingual",
+            "comprehension"
+          ],
+          "caption": "复习·复习",
+          "zh": "」\n\n那个学生还在学。他想从事法律工作，他知道刑事司法系统需要有人替那些说不出话的人说话。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, a bilingual witness helping the police with a case using two languages. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: revise, revision, accent, bilingual] Caption text at the bottom in a clean rounded speech area: Punishment only works if people understand what is said. \n\nThe student still studies. He wants a career in law, and he knows that the criminal justice system needs people who can speak for those who cannot speak for themselves. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g10/g10-6.webp"
+        }
+      ]
+    },
+    "11": {
+      "title": "The Fake Bag That Made the Headlines",
+      "theme": "a news story about a fake luxury bag that was sold and made the headlines",
+      "pages": [
+        {
+          "page": 1,
+          "sents": [
+            "Last month a journalist received an anonymous message.",
+            "It said that a famous brand was selling counterfeit bags in its own retail stores, and that the retailer had hidden the truth for years.",
+            "At first nobody believed it.",
+            "Then the paper published an editorial asking for proof, and the story became a headline for a week."
+          ],
+          "hl": [
+            "brand",
+            "campaign",
+            "commercial",
+            "coupon",
+            "expenditure"
+          ],
+          "caption": "品牌·（广告",
+          "zh": "上个月，一位记者收到一条匿名消息。消息说某个知名品牌在自己的零售店里卖假包，而这家零售商把真相瞒了好几年。起初没人相信。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, a news story about a fake luxury bag that was sold and made the headlines. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: brand, campaign, commercial, coupon] Caption text at the bottom in a clean rounded speech area: Last month a journalist received an anonymous message. It said that a famous brand was selling counterfeit bags in its own retail stores, and that the retailer had hidden the truth for years. At first nobody believed it. Then the paper published an editorial asking for proof, and the story became a headline for a week. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g11/g11-1.webp"
+        },
+        {
+          "page": 2,
+          "sents": [
+            "The coverage was enormous.",
+            "A scandal like this damages credibility, and the company's marketing team went silent.",
+            "Its expenditure on advertising could not buy back public trust."
+          ],
+          "hl": [
+            "marketing",
+            "merchandise",
+            "persuade",
+            "persuasive",
+            "retail"
+          ],
+          "caption": "市场营销·商品",
+          "zh": "后来报纸发表社论要求证据，这条新闻成了整整一周的头条。报道量巨大。这样的丑闻会损害公信力，公司的市场团队一言不发。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, a news story about a fake luxury bag that was sold and made the headlines. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: marketing, merchandise, persuade, persuasive] Caption text at the bottom in a clean rounded speech area: The coverage was enormous. A scandal like this damages credibility, and the company's marketing team went silent. Its expenditure on advertising could not buy back public trust. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g11/g11-2.webp"
+        },
+        {
+          "page": 3,
+          "sents": [
+            "The evidence, however, was strong.",
+            "A customer kept her receipt and her warranty, checked the serial number, and asked for a refund.",
+            "The transaction appeared on her subscription account, and the coupon she had used had a different code from the one advertised in the campaign."
+          ],
+          "hl": [
+            "retailer",
+            "subscription",
+            "transaction",
+            "warranty",
+            "counterfeit"
+          ],
+          "caption": "零售商·订阅（费）",
+          "zh": "花在广告上的支出，买不回公众的信任。然而证据很扎实。一位顾客留着收据和保修卡，查了序列号，要求退款。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, a news story about a fake luxury bag that was sold and made the headlines. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: retailer, subscription, transaction, warranty] Caption text at the bottom in a clean rounded speech area: The evidence, however, was strong. A customer kept her receipt and her warranty, checked the serial number, and asked for a refund. The transaction appeared on her subscription account, and the coupon she had used had a different code from the one advertised in the campaign. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g11/g11-3.webp"
+        },
+        {
+          "page": 4,
+          "sents": [
+            "A commercial on television promised \"genuine leather\"; the label on the merchandise said otherwise.",
+            "The company tried to persuade the public that the mistake was small.",
+            "Its statement was not persuasive."
+          ],
+          "hl": [
+            "journalist",
+            "headline",
+            "editorial",
+            "coverage",
+            "censorship"
+          ],
+          "caption": "新闻记者·新闻标题",
+          "zh": "这笔交易出现在她的订阅账户里，她用的优惠券编号与活动广告里的不一样。电视上一支广告承诺「真皮」，而商品上的标签却不是这么写的。公司试图让公众相信这只是个小失误，但它的声明并没有说服力。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, a news story about a fake luxury bag that was sold and made the headlines. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: journalist, headline, editorial, coverage] Caption text at the bottom in a clean rounded speech area: A commercial on television promised genuine leather; the label on the merchandise said otherwise. The company tried to persuade the public that the mistake was small. Its statement was not persuasive. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g11/g11-4.webp"
+        },
+        {
+          "page": 5,
+          "sents": [
+            "Reporters began to verify every claim, and a rumour about a second factory started to circulate.",
+            "There was no censorship that could stop it, and the paper had no bias: it simply printed the documents.",
+            "Its circulation rose by ten percent."
+          ],
+          "hl": [
+            "rumour",
+            "scandal",
+            "bias",
+            "objective",
+            "credibility"
+          ],
+          "caption": "谣言·丑闻",
+          "zh": "记者们开始逐条核实，关于第二家工厂的谣言也开始传播。没有审查能拦住它，报纸也没有偏见：它只是把文件登出来。发行量涨了百分之十。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, a news story about a fake luxury bag that was sold and made the headlines. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: rumour, scandal, bias, objective] Caption text at the bottom in a clean rounded speech area: Reporters began to verify every claim, and a rumour about a second factory started to circulate. There was no censorship that could stop it, and the paper had no bias: it simply printed the documents. Its circulation rose by ten percent. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g11/g11-5.webp"
+        },
+        {
+          "page": 6,
+          "sents": [
+            "The lesson is not that all advertising is false.",
+            "It is that good journalism is objective: it checks, it questions, and it refuses propaganda.",
+            "A brand is only worth what people believe about it — and belief, once lost, is hard to win back."
+          ],
+          "hl": [
+            "criculate",
+            "circulation",
+            "propaganda",
+            "anonymous",
+            "verify"
+          ],
+          "caption": "传播·发行量",
+          "zh": "这堂课不是「所有广告都是假的」，而是：好的新闻是客观的——它核查、它质疑、它拒绝宣传话术。一个品牌的价值，只等于人们对它的相信——而信任一旦丢了，就很难再赢回来。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, a news story about a fake luxury bag that was sold and made the headlines. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: criculate, circulation, propaganda, anonymous] Caption text at the bottom in a clean rounded speech area: The lesson is not that all advertising is false. It is that good journalism is objective: it checks, it questions, and it refuses propaganda. A brand is only worth what people believe about it — and belief, once lost, is hard to win back. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g11/g11-6.webp"
+        }
+      ]
+    },
+    "12": {
+      "title": "Maria's Tuesday",
+      "theme": "Maria's busy Tuesday, running errands and working through a full day",
+      "pages": [
+        {
+          "page": 1,
+          "sents": [
+            "Maria emigrated from a small town ten years ago.",
+            "Now she lives in a multicultural neighbourhood and works as a caregiver.",
+            "Every Tuesday she visits Mr.",
+            "Chen, an elderly man of 82."
+          ],
+          "hl": [
+            "elderly",
+            "ageing",
+            "retirement",
+            "longevity",
+            "offspring"
+          ],
+          "caption": "上了年纪的·变老",
+          "zh": "玛丽亚十年前从一个小镇移居国外。现在她住在一个多元文化的社区，做照护员。每个星期二她都去看望陈先生，一位 82 岁的老人。他家很小 —— 只有他自己，还有几张搬去国外的子女的照片。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, Maria's busy Tuesday, running errands and working through a full day. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: elderly, ageing, retirement, longevity] Caption text at the bottom in a clean rounded speech area: Maria emigrated from a small town ten years ago. Now she lives in a multicultural neighbourhood and works as a caregiver. Every Tuesday she visits Mr. Chen, an elderly man of 82. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g12/g12-1.webp"
+        },
+        {
+          "page": 2,
+          "sents": [
+            "His household is small — just him and some photos of his offspring, who moved abroad.",
+            "His retirement money is small, so he also gets a city allowance.",
+            "\"Ageing is not only about longevity,\" Maria says.",
+            "\"It is about frailty and loneliness too."
+          ],
+          "hl": [
+            "caregiver",
+            "demographic",
+            "mortality",
+            "dependency",
+            "loneliness"
+          ],
+          "caption": "照护者（家属或护工）·人口结构的",
+          "zh": "他的退休金不多，所以还能领一份市里的津贴。\"老龄化不只是长寿的事，\"玛丽亚说，\"它还是身体虚弱和孤独的事。\"\n\n陈先生只是众多老人中的一个。这座小镇的人口结构正在快速变化。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, Maria's busy Tuesday, running errands and working through a full day. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: caregiver, demographic, mortality, dependency] Caption text at the bottom in a clean rounded speech area: His household is small — just him and some photos of his offspring, who moved abroad. His retirement money is small, so he also gets a city allowance. Ageing is not only about longevity, Maria says. It is about frailty and loneliness too. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g12/g12-2.webp"
+        },
+        {
+          "page": 3,
+          "sents": [
+            "\"\n\nMr.",
+            "Chen is one of many.",
+            "The town's demographic picture is changing fast.",
+            "Mortality is falling, but the dependency ratio is rising, and the workforce is shrinking."
+          ],
+          "hl": [
+            "allowance",
+            "burden",
+            "frailty",
+            "household",
+            "workforce"
+          ],
+          "caption": "津贴·负担",
+          "zh": "死亡率在下降，但抚养比在上升，劳动力在缩水。\"这份负担谁来扛？\"人们问。与此同时，是移民让这座小镇还活着。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, Maria's busy Tuesday, running errands and working through a full day. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: allowance, burden, frailty, household] Caption text at the bottom in a clean rounded speech area: \n\nMr. Chen is one of many. The town's demographic picture is changing fast. Mortality is falling, but the dependency ratio is rising, and the workforce is shrinking. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g12/g12-3.webp"
+        },
+        {
+          "page": 4,
+          "sents": [
+            "\"Who will carry this burden?",
+            "\" people ask.",
+            "Meanwhile, immigration keeps the town alive.",
+            "Some newcomers are refugees who came seeking asylum."
+          ],
+          "hl": [
+            "immigrant",
+            "immigration",
+            "emigrate",
+            "refugee",
+            "asylum"
+          ],
+          "caption": "（入境）移民·移民（行为",
+          "zh": "有些新来的人是来寻求庇护的难民。几年之后，很多人申请入籍。玛丽亚帮他们融入。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, Maria's busy Tuesday, running errands and working through a full day. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: immigrant, immigration, emigrate, refugee] Caption text at the bottom in a clean rounded speech area: Who will carry this burden?  people ask. Meanwhile, immigration keeps the town alive. Some newcomers are refugees who came seeking asylum. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g12/g12-4.webp"
+        },
+        {
+          "page": 5,
+          "sents": [
+            "After a few years, many apply for citizenship.",
+            "Maria helps them with integration.",
+            "She sees prejudice at times.",
+            "Some people hold a stereotype that immigrants cannot assimilate."
+          ],
+          "hl": [
+            "citizenship",
+            "ethnic",
+            "minority",
+            "multicultural",
+            "integration"
+          ],
+          "caption": "公民身份·民族的",
+          "zh": "她偶尔也会遇见偏见。有些人认定移民无法被同化。真正的歧视她也见过。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, Maria's busy Tuesday, running errands and working through a full day. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: citizenship, ethnic, minority, multicultural] Caption text at the bottom in a clean rounded speech area: After a few years, many apply for citizenship. Maria helps them with integration. She sees prejudice at times. Some people hold a stereotype that immigrants cannot assimilate. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g12/g12-5.webp"
+        },
+        {
+          "page": 6,
+          "sents": [
+            "She has met real discrimination too.",
+            "Still, she believes the town is stronger.",
+            "Ethnic minority groups now run shops and festivals.",
+            "And the indigenous families who lived here first are part of the same story."
+          ],
+          "hl": [
+            "assimilate",
+            "prejudice",
+            "stereotype",
+            "discrimination",
+            "indigenous"
+          ],
+          "caption": "同化·偏见",
+          "zh": "但她仍然相信，这座小镇变得更强了。少数族裔群体如今在这里开店、办节。而最早住在这片土地上的原住民家庭，也在这同一个故事里。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, Maria's busy Tuesday, running errands and working through a full day. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: assimilate, prejudice, stereotype, discrimination] Caption text at the bottom in a clean rounded speech area: She has met real discrimination too. Still, she believes the town is stronger. Ethnic minority groups now run shops and festivals. And the indigenous families who lived here first are part of the same story. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g12/g12-6.webp"
+        }
+      ]
+    },
+    "13": {
+      "title": "The Charity Marathon",
+      "theme": "a charity marathon where runners raise money for a good cause",
+      "pages": [
+        {
+          "page": 1,
+          "sents": [
+            "Tom is not a professional athlete.",
+            "But every year he runs a marathon for charity.",
+            "This year the venue is the old town stadium.",
+            "A local philanthropist pays for the sponsorship, and hundreds of spectators fill the seats."
+          ],
+          "hl": [
+            "charity",
+            "charitable",
+            "donate",
+            "donation",
+            "philanthropist"
+          ],
+          "caption": "慈善·慈善的",
+          "zh": "汤姆不是职业运动员。但每年他都为慈善跑一场马拉松。今年的场地是镇上的老体育场。本地一位慈善家出钱赞助，几百名观众坐满看台。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, a charity marathon where runners raise money for a good cause. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: charity, charitable, donate, donation] Caption text at the bottom in a clean rounded speech area: Tom is not a professional athlete. But every year he runs a marathon for charity. This year the venue is the old town stadium. A local philanthropist pays for the sponsorship, and hundreds of spectators fill the seats. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g13/g13-1.webp"
+        },
+        {
+          "page": 2,
+          "sents": [
+            "There is no big championship, no gold medal — only a small cup.",
+            "Tom trains for months to build endurance.",
+            "His opponent is not another runner; it is his own slow legs.",
+            "On race day his tactics are simple: start slow, finish strong."
+          ],
+          "hl": [
+            "altruism",
+            "compassion",
+            "empathy",
+            "generosity",
+            "contribute"
+          ],
+          "caption": "利他主义·同情",
+          "zh": "这里没有大型锦标赛，没有金牌 —— 只有一个小奖杯。汤姆训练了几个月来练耐力。他的对手不是别的选手，而是他自己那双慢腿。比赛当天他的战术很简单：起跑慢，冲刺狠。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, a charity marathon where runners raise money for a good cause. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: altruism, compassion, empathy, generosity] Caption text at the bottom in a clean rounded speech area: There is no big championship, no gold medal — only a small cup. Tom trains for months to build endurance. His opponent is not another runner; it is his own slow legs. On race day his tactics are simple: start slow, finish strong. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g13/g13-2.webp"
+        },
+        {
+          "page": 3,
+          "sents": [
+            "A referee watches the runners.",
+            "Anyone caught using doping will be disqualified at once.",
+            "At the gate, people donate."
+          ],
+          "hl": [
+            "contribution",
+            "beneficiary",
+            "underprivileged",
+            "awareness",
+            "hardship"
+          ],
+          "caption": "贡献·受益人",
+          "zh": "裁判盯着跑者。任何人被发现用兴奋剂，立刻取消资格。门口有人在捐款。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, a charity marathon where runners raise money for a good cause. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: contribution, beneficiary, underprivileged, awareness] Caption text at the bottom in a clean rounded speech area: A referee watches the runners. Anyone caught using doping will be disqualified at once. At the gate, people donate. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g13/g13-3.webp"
+        },
+        {
+          "page": 4,
+          "sents": [
+            "Some give money, some give time.",
+            "Their donations and contributions go to underprivileged children.",
+            "Tom's neighbour is a beneficiary: she gets books and a warm coat."
+          ],
+          "hl": [
+            "athlete",
+            "athletic",
+            "stadium",
+            "referee",
+            "spectator"
+          ],
+          "caption": "运动员·运动的",
+          "zh": "有人出钱，有人出时间。他们的捐款和贡献都给了贫困儿童。汤姆的邻居就是受助人：她拿到了书和一件暖和的外套。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, a charity marathon where runners raise money for a good cause. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: athlete, athletic, stadium, referee] Caption text at the bottom in a clean rounded speech area: Some give money, some give time. Their donations and contributions go to underprivileged children. Tom's neighbour is a beneficiary: she gets books and a warm coat. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g13/g13-4.webp"
+        },
+        {
+          "page": 5,
+          "sents": [
+            "Tom is not rich, but he contributes in his own way.",
+            "He shows real generosity.",
+            "He says altruism is simple: you give because you can."
+          ],
+          "hl": [
+            "championship",
+            "marathon",
+            "medal",
+            "doping",
+            "sponsorship"
+          ],
+          "caption": "锦标赛·马拉松",
+          "zh": "汤姆不富，但他用自己的方式出力。他显出真正的慷慨。他说利他很简单：你有，你就给。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, a charity marathon where runners raise money for a good cause. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: championship, marathon, medal, doping] Caption text at the bottom in a clean rounded speech area: Tom is not rich, but he contributes in his own way. He shows real generosity. He says altruism is simple: you give because you can. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g13/g13-5.webp"
+        },
+        {
+          "page": 6,
+          "sents": [
+            "His charitable act also raises awareness of hardship in the town.",
+            "Compassion is easy to feel; empathy is harder — it means running in someone else's shoes.",
+            "His athletic body is tired, but his heart is full."
+          ],
+          "hl": [
+            "opponent",
+            "endurance",
+            "tactics",
+            "venue",
+            "disqualify"
+          ],
+          "caption": "对手·耐力",
+          "zh": "他的慈善之举也让镇上更多人看见这里的艰难。同情很容易生出来；共情更难 —— 那意味着穿上别人的鞋去跑。他的身体很累，但心里是满的。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, a charity marathon where runners raise money for a good cause. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: opponent, endurance, tactics, venue] Caption text at the bottom in a clean rounded speech area: His charitable act also raises awareness of hardship in the town. Compassion is easy to feel; empathy is harder — it means running in someone else's shoes. His athletic body is tired, but his heart is full. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g13/g13-6.webp"
+        }
+      ]
+    },
+    "14": {
+      "title": "From the Field to the City",
+      "theme": "a farmer's son moving from the fields to the city to find work",
+      "pages": [
+        {
+          "page": 1,
+          "sents": [
+            "Mrs.",
+            "Li grew up on a farm.",
+            "Her family did agriculture for three generations.",
+            "They cultivated rice and kept livestock and poultry."
+          ],
+          "hl": [
+            "agriculture",
+            "agricultural",
+            "cultivate",
+            "harvest",
+            "livestock"
+          ],
+          "caption": "农业·农业的",
+          "zh": "李阿姨在农场长大。她家三代务农。他们种水稻，也养牲畜和家禽。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, a farmer's son moving from the fields to the city to find work. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: agriculture, agricultural, cultivate, harvest] Caption text at the bottom in a clean rounded speech area: Mrs. Li grew up on a farm. Her family did agriculture for three generations. They cultivated rice and kept livestock and poultry. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g14/g14-1.webp"
+        },
+        {
+          "page": 2,
+          "sents": [
+            "The land was fertile, and the harvest was good.",
+            "With irrigation and a little fertilizer, the yield of every crop rose.",
+            "They never used much pesticide, so their grain was almost organic."
+          ],
+          "hl": [
+            "poultry",
+            "irrigation",
+            "fertilizer",
+            "pesticide",
+            "fertile"
+          ],
+          "caption": "家禽（不可数）·灌溉",
+          "zh": "土地肥沃，收成很好。有了灌溉和一点肥料，每一样作物的产量都上去了。他们很少用农药，所以粮食几乎是纯有机的。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, a farmer's son moving from the fields to the city to find work. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: poultry, irrigation, fertilizer, pesticide] Caption text at the bottom in a clean rounded speech area: The land was fertile, and the harvest was good. With irrigation and a little fertilizer, the yield of every crop rose. They never used much pesticide, so their grain was almost organic. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g14/g14-2.webp"
+        },
+        {
+          "page": 3,
+          "sents": [
+            "They stored it in a big jar, just in case a famine came.",
+            "Then the town grew.",
+            "Urbanisation arrived, and the agricultural land became suburban streets."
+          ],
+          "hl": [
+            "crop",
+            "organic",
+            "yield",
+            "famine",
+            "grain"
+          ],
+          "caption": "农作物·有机的",
+          "zh": "他们把粮存在一个大缸里，以防闹饥荒。后来镇子长大了。城市化来了，农业用地变成了郊区的街道。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, a farmer's son moving from the fields to the city to find work. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: crop, organic, yield, famine] Caption text at the bottom in a clean rounded speech area: They stored it in a big jar, just in case a famine came. Then the town grew. Urbanisation arrived, and the agricultural land became suburban streets. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g14/g14-3.webp"
+        },
+        {
+          "page": 4,
+          "sents": [
+            "Mrs.",
+            "Li now lives in a dense block.",
+            "The density is high, but the amenities are close: a market, a clinic, a park."
+          ],
+          "hl": [
+            "urbanisation",
+            "suburban",
+            "sprawl",
+            "density",
+            "dense"
+          ],
+          "caption": "城市化·郊区的",
+          "zh": "李阿姨现在住在一栋密集的楼里。密度很高，但生活设施就在旁边：菜场、诊所、公园。从窗口她能看见一座新地标和一条正在变的天际线。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, a farmer's son moving from the fields to the city to find work. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: urbanisation, suburban, sprawl, density] Caption text at the bottom in a clean rounded speech area: Mrs. Li now lives in a dense block. The density is high, but the amenities are close: a market, a clinic, a park. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g14/g14-4.webp"
+        },
+        {
+          "page": 5,
+          "sents": [
+            "From her window she sees a new landmark and a changing skyline.",
+            "A famous architect designed it, and people praise its architecture.",
+            "Still, the old field is gone."
+          ],
+          "hl": [
+            "dweller",
+            "amenity",
+            "landmark",
+            "skyline",
+            "architecture"
+          ],
+          "caption": "居民·生活便利设施（常用复数）",
+          "zh": "一位有名的建筑师设计了它，大家都夸这栋建筑的样式。可那块老田没了。城市的无序扩张在吃掉土地。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, a farmer's son moving from the fields to the city to find work. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: dweller, amenity, landmark, skyline] Caption text at the bottom in a clean rounded speech area: From her window she sees a new landmark and a changing skyline. A famous architect designed it, and people praise its architecture. Still, the old field is gone. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g14/g14-5.webp"
+        },
+        {
+          "page": 6,
+          "sents": [
+            "Urban sprawl eats the land.",
+            "She hopes the city's provision of housing will not fill every field, and that regeneration projects can revitalise the centre without taking more farmland.",
+            "As a city dweller, she misses the smell of soil."
+          ],
+          "hl": [
+            "architect",
+            "regeneration",
+            "revitalise",
+            "provision",
+            "housing"
+          ],
+          "caption": "建筑师·复兴",
+          "zh": "她希望城市提供住房时不要把每一块田都填满，也希望更新项目能让市中心重焕活力，而不是再占更多农田。作为一个城市居民，她想念泥土的味道。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, a farmer's son moving from the fields to the city to find work. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: architect, regeneration, revitalise, provision] Caption text at the bottom in a clean rounded speech area: Urban sprawl eats the land. She hopes the city's provision of housing will not fill every field, and that regeneration projects can revitalise the centre without taking more farmland. As a city dweller, she misses the smell of soil. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g14/g14-6.webp"
+        }
+      ]
+    },
+    "15": {
+      "title": "The Engineer in the Sanctuary",
+      "theme": "an engineer volunteering to protect wildlife in a nature sanctuary",
+      "pages": [
+        {
+          "page": 1,
+          "sents": [
+            "Ms.",
+            "Zhou is an engineer.",
+            "Her job is to build electronic devices for a wildlife sanctuary."
+          ],
+          "hl": [
+            "invention",
+            "inventor",
+            "laboratory",
+            "experiment",
+            "hypothesis"
+          ],
+          "caption": "发明（物）·发明者",
+          "zh": "周女士是工程师。她的工作是为一个野生动物保护区做电子设备。去年她有个假说：老传感器里一个小机械故障在产生错误数据。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, an engineer volunteering to protect wildlife in a nature sanctuary. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: invention, inventor, laboratory, experiment] Caption text at the bottom in a clean rounded speech area: Ms. Zhou is an engineer. Her job is to build electronic devices for a wildlife sanctuary. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g15/g15-1.webp"
+        },
+        {
+          "page": 2,
+          "sents": [
+            "Last year she had a hypothesis: a small mechanical fault in the old sensors was giving false data.",
+            "She took the apparatus back to the laboratory and ran a simple experiment.",
+            "Her numbers were accurate to the last digit, and she found the mechanism behind the error."
+          ],
+          "hl": [
+            "apparatus",
+            "breakthrough",
+            "patent",
+            "prototype",
+            "engineer"
+          ],
+          "caption": "仪器·突破（性进展）",
+          "zh": "她把仪器带回实验室，做了一个简单实验。她的数字精确到最后一位，她也找到了错误背后的机制。她把误差压到了极小的精度。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, an engineer volunteering to protect wildlife in a nature sanctuary. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: apparatus, breakthrough, patent, prototype] Caption text at the bottom in a clean rounded speech area: Last year she had a hypothesis: a small mechanical fault in the old sensors was giving false data. She took the apparatus back to the laboratory and ran a simple experiment. Her numbers were accurate to the last digit, and she found the mechanism behind the error. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g15/g15-2.webp"
+        },
+        {
+          "page": 3,
+          "sents": [
+            "She cut the error down with great precision.",
+            "Then she built a new prototype of the sensor.",
+            "It was a real breakthrough, and the team applied for a patent."
+          ],
+          "hl": [
+            "mechanical",
+            "mechanism",
+            "electronic",
+            "precision",
+            "accurate"
+          ],
+          "caption": "机械的·机制",
+          "zh": "然后她做了一只新样机。这是真正的突破，团队申请了专利。他们用这片森林给这项发明命名，虽然她害羞得不肯自称发明家。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, an engineer volunteering to protect wildlife in a nature sanctuary. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: mechanical, mechanism, electronic, precision] Caption text at the bottom in a clean rounded speech area: She cut the error down with great precision. Then she built a new prototype of the sensor. It was a real breakthrough, and the team applied for a patent. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g15/g15-3.webp"
+        },
+        {
+          "page": 4,
+          "sents": [
+            "They named the invention after the forest, though she is too shy to call herself an inventor.",
+            "The forest needs those sensors.",
+            "Every habitat here is shrinking."
+          ],
+          "hl": [
+            "habitat",
+            "predator",
+            "prey",
+            "extinction",
+            "endangered"
+          ],
+          "caption": "栖息地·捕食者",
+          "zh": "这片森林需要这些传感器。这里的每一块栖息地都在缩小。植被稀薄，水土流失很快。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, an engineer volunteering to protect wildlife in a nature sanctuary. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: habitat, predator, prey, extinction] Caption text at the bottom in a clean rounded speech area: They named the invention after the forest, though she is too shy to call herself an inventor. The forest needs those sensors. Every habitat here is shrinking. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g15/g15-4.webp"
+        },
+        {
+          "page": 5,
+          "sents": [
+            "Vegetation is thin, and erosion is quick.",
+            "A predator may lose its prey; a mammal or an amphibian may move closer to extinction.",
+            "Many are now endangered."
+          ],
+          "hl": [
+            "biodiversity",
+            "ecosystem",
+            "sanctuary",
+            "breed",
+            "mammal"
+          ],
+          "caption": "生物多样性·生态系统",
+          "zh": "捕食者可能失去猎物；哺乳动物或两栖动物可能离灭绝更近一步。很多已经是濒危物种了。好数据能帮团队繁育珍稀动物、守住整个生态系统。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, an engineer volunteering to protect wildlife in a nature sanctuary. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: biodiversity, ecosystem, sanctuary, breed] Caption text at the bottom in a clean rounded speech area: Vegetation is thin, and erosion is quick. A predator may lose its prey; a mammal or an amphibian may move closer to extinction. Many are now endangered. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g15/g15-5.webp"
+        },
+        {
+          "page": 6,
+          "sents": [
+            "Good data helps the team breed rare animals and protect the whole ecosystem.",
+            "Without it, biodiversity would fall and survival would be a guess.",
+            "\"To survive, a species needs a home,\" she says."
+          ],
+          "hl": [
+            "amphibian",
+            "vegetation",
+            "erosion",
+            "survive",
+            "survival"
+          ],
+          "caption": "两栖动物·植被",
+          "zh": "没有它，生物多样性会掉下去，能不能活下来只能靠猜。\"一个物种要活下来，得先有家。\"她说。",
+          "prompt": "Flat cartoon storybook illustration, warm colors, an engineer volunteering to protect wildlife in a nature sanctuary. [Instruction for the illustrator, do NOT write this instruction text into the image: emphasize these keywords in bold red inside the caption: amphibian, vegetation, erosion, survive] Caption text at the bottom in a clean rounded speech area: Good data helps the team breed rare animals and protect the whole ecosystem. Without it, biodiversity would fall and survival would be a guess. To survive, a species needs a home, she says. 16:9 wide composition, soft lighting, no watermark. Avoid small decorative text labels in the scene.",
+          "img": "g15/g15-6.webp"
+        }
+      ]
+    }
+  }
+}
