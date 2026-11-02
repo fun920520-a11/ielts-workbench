@@ -5,6 +5,10 @@ const { JSDOM } = require('jsdom');
 
 const ROOT = path.resolve(__dirname, '..');
 const html = fs.readFileSync(path.join(ROOT, 'index.html'), 'utf8');
+// 期望组数直接从内置快照读，增组后测试不用改
+const seedJson = JSON.parse(html.match(/<script[^>]*id="obs-seed"[^>]*>([\s\S]*?)<\/script>/)[1]);
+const EXPECT_GROUPS = new Set(seedJson.words.map(w => w.grp)).size;
+const EXPECT_WORDS = seedJson.words.length;
 
 const dom = new JSDOM(html, {
   url: 'http://127.0.0.1:8787/',
@@ -34,12 +38,12 @@ function wait(ms) { return new Promise(r => setTimeout(r, ms)); }
   const cnt = d.getElementById('psCount');
   const buildTag = d.getElementById('buildTag');
 
-  console.log('组 chips 数量:', chips.length);
+  console.log('组 chips 数量:', chips.length, '（期望 '+EXPECT_GROUPS+' 组 / '+EXPECT_WORDS+' 词）');
   console.log('前 3 / 后 3:', chipText.slice(0, 3).join(' | '), '...', chipText.slice(-3).join(' | '));
   console.log('计数条:', cnt ? cnt.textContent.trim() : '(无)');
   console.log('构建标记:', buildTag ? buildTag.textContent.trim() : '(无)');
 
-  let allOk = chips.length === 22;
+  let allOk = chips.length === EXPECT_GROUPS;
 
   for (const g of [1, 2, 3, 4]) {
     w.psPick(g);
@@ -58,10 +62,10 @@ function wait(ms) { return new Promise(r => setTimeout(r, ms)); }
   console.log('翻页后:', img2 ? img2.getAttribute('src') : '(无)');
 
   // 无插图卡的组应显示提示，而不是空白
-  w.psPick(22);
+  w.psPick(EXPECT_GROUPS);
   await wait(500);
   const hint = d.querySelector('#psComic .ps-comic-hint');
-  console.log('第22组提示:', hint ? hint.textContent.trim().slice(0, 60) + '…' : '(无提示)');
+  console.log('末组提示:', hint ? hint.textContent.trim().slice(0, 60) + '…' : '(无提示)');
   if (!hint) allOk = false;
 
   const hasChips = d.querySelectorAll('#psChips .chip.ps-has').length;

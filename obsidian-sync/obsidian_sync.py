@@ -163,6 +163,13 @@ AUDIO_EXT = {".mp3", ".m4a", ".wav", ".ogg", ".flac", ".aac", ".opus", ".webm", 
 MIME = {".mp3": "audio/mpeg", ".m4a": "audio/mp4", ".mp4": "audio/mp4",
         ".wav": "audio/wav", ".ogg": "audio/ogg", ".opus": "audio/ogg",
         ".flac": "audio/flac", ".aac": "audio/aac", ".webm": "audio/webm"}
+WEB_MIME = {".webp": "image/webp", ".png": "image/png", ".jpg": "image/jpeg",
+            ".jpeg": "image/jpeg", ".gif": "image/gif", ".svg": "image/svg+xml",
+            ".ico": "image/x-icon", ".json": "application/json; charset=utf-8",
+            ".css": "text/css; charset=utf-8", ".js": "application/javascript; charset=utf-8",
+            ".woff2": "font/woff2", ".txt": "text/plain; charset=utf-8"}
+# 只开放这几个子目录给页面读取，避免把整个项目目录暴露出去
+STATIC_DIRS = ("img",)
 JOBS = {}
 ASR_CONF = {"model": "base.en", "device": "cpu", "compute_type": "int8", "beam_size": 5}
 
@@ -337,6 +344,37 @@ class Handler(BaseHTTPRequestHandler):
         self.end_headers()
         self.wfile.write(body)
 
+    def _static(self, path):
+        """把项目根目录 img/ 下的图片和 panels.json 发给页面。
+
+        之前桥只认 / 和 /api/*，本机直连版打开时所有插图都是 404，
+        表现就是「用桥打开，图全没了、翻页卡也不出来」。
+        """
+        base = os.path.dirname(HERE)
+        rel = os.path.normpath(path.lstrip("/").replace("\\", "/"))
+        if rel.startswith("..") or os.path.isabs(rel):
+            return self._json({"ok": False, "error": "非法路径"}, 400)
+        top = rel.replace("\\", "/").split("/", 1)[0]
+        if top not in STATIC_DIRS:
+            return self._json({"ok": False, "error": "not found"}, 404)
+        full = os.path.join(base, rel)
+        if not os.path.isfile(full):
+            return self._json({"ok": False, "error": "文件不存在"}, 404)
+        ext = os.path.splitext(full)[1].lower()
+        ctype = WEB_MIME.get(ext) or MIME.get(ext) or "application/octet-stream"
+        try:
+            with open(full, "rb") as f:
+                body = f.read()
+        except Exception as e:
+            return self._json({"ok": False, "error": str(e)}, 500)
+        self.send_response(200)
+        self.send_header("Content-Type", ctype)
+        self.send_header("Content-Length", str(len(body)))
+        self.send_header("Cache-Control", "max-age=300")
+        self._cors()
+        self.end_headers()
+        self.wfile.write(body)
+
     def do_OPTIONS(self):
         self.send_response(204)
         self._cors()
@@ -366,7 +404,7 @@ class Handler(BaseHTTPRequestHandler):
                 r["sources"] = p.get("sources")
                 r["generatedAt"] = p.get("generatedAt")
                 return self._json(r)
-            if path == "/" or path == "/index" or path == "/bench":
+            if path in ("/", "/index", "/index.html", "/bench"):
                 # 同源直连版：页面和接口同源，浏览器不会拦截
                 page = resolve_page()
                 if os.path.exists(page):
@@ -415,6 +453,8 @@ class Handler(BaseHTTPRequestHandler):
                 if not p:
                     return self._json({"ok": False, "error": "音频不存在，请重新导入"}, 404)
                 return _range_send(self, p, MIME.get(os.path.splitext(p)[1].lower(), "application/octet-stream"))
+            if path.startswith("/img/"):
+                return self._static(path)
             return self._json({"ok": False, "error": "not found"}, 404)
         except SystemExit as e:
             return self._json({"ok": False, "error": str(e)}, 500)
